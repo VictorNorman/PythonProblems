@@ -427,7 +427,7 @@ SECTION 2: Input and Output
 
         .. tab:: Hint
 
-           Call print() twice, on two consecutive lines.
+           Use the print() function, and remember that strings are surrounded by double-quotes or single-quotes.
 
         .. tab:: Answer
 

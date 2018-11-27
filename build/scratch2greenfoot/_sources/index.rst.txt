@@ -20,7 +20,7 @@ SECTION 1: Simple Assignments
 .. question:: sass1_q
    :number: 1
 
-   .. tabbed:: sass1_tab
+   .. tabbed:: q1
 
         .. tab:: Question
 
@@ -54,7 +54,7 @@ SECTION 1: Simple Assignments
 
 .. question:: sass2_q
 
-   .. tabbed:: sass2_tab
+   .. tabbed:: q2
 
         .. tab:: Question
 
@@ -84,7 +84,7 @@ SECTION 1: Simple Assignments
 
 .. question:: sass3_q
 
-   .. tabbed:: sass3_tab
+   .. tabbed:: q3
 
         .. tab:: Question
 
@@ -116,7 +116,7 @@ SECTION 1: Simple Assignments
 
 .. question:: sass4_q
 
-   .. tabbed:: sass4_tab
+   .. tabbed:: q4
 
         .. tab:: Question
 
@@ -148,7 +148,7 @@ SECTION 1: Simple Assignments
 
 .. question:: sass5_q
 
-   .. tabbed:: sass5_tab
+   .. tabbed:: q5
 
         .. tab:: Question
 
@@ -198,7 +198,7 @@ SECTION 1: Simple Assignments
 
 .. question:: sass6_q
 
-   .. tabbed:: sass6_tab
+   .. tabbed:: q6
 
         .. tab:: Question
 
@@ -247,7 +247,7 @@ SECTION 1: Simple Assignments
 
 .. question:: sass7_q
 
-   .. tabbed:: sass7_tabs
+   .. tabbed:: q7
 
         .. tab:: Question
 
@@ -296,7 +296,7 @@ SECTION 1: Simple Assignments
 
 .. question:: sass8_q
 
-   .. tabbed:: sass8_tabs
+   .. tabbed:: q8
 
         .. tab:: Question
 
@@ -332,38 +332,28 @@ SECTION 1: Simple Assignments
 
 .. question:: sass9_q
 
-   .. tabbed:: sass9_tabs
+   .. tabbed:: q9
 
         .. tab:: Question
 
-           Replace these statements with a single statement so that you don't use the variable ``y`` --
-           just the variable ``x`` being set to a value.
+           Replace these statements with a single statement so that you don't use the variable ``y``.
 
            .. activecode:: sass9
 
               x = 7
               y = x + 1
               x = y
-              ====
-              from unittest.gui import TestCaseGui
-
-              class myTests(TestCaseGui):
-
-                  def testOne(self):
-                      self.assertAlmostEqual(x, 8)
-
-              myTests().main()
 
         .. tab:: Answer
 
            .. activecode:: sass9_a
               :nocanvas:
 
-	           x = 8
+	      x = 8
 
 .. question:: sass10_q
 
-   .. tabbed:: sass10_tabs
+   .. tabbed:: q10
 
         .. tab:: Question
 
@@ -371,11 +361,11 @@ SECTION 1: Simple Assignments
 
            .. activecode:: sass10
 
-              x = 7
-              y = 9
-              y = x
-              x = 4
-              print(y)
+            x = 7
+	      y = 9
+	      y = x
+	      x = 4
+	      print(y)
 
            If you don't understand the answer, using **CodeLens** might help.
 
@@ -384,59 +374,16 @@ SECTION 1: Simple Assignments
 SECTION 2: Input and Output
 :::::::::::::::::::::::::::
 
-.. question:: io1_q
-   :number: 1
+Question 1:
 
-   .. tabbed:: io1_tabs
+Write code to print **Hello, World**.
 
-        .. tab:: Question
+Question 2:
 
-            .. activecode:: io1
-
-               Write code to print ``Hello, World``
-               ~~~~
-
-        .. tab:: Hint
-
-           Use the print() function, and remember that strings are surrounded by double-quotes or single-quotes.
-
-        .. tab:: Answer
-
-           .. activecode:: io1_a
-              :nocanvas:
-
-              print("Hello, World")
-              # or print('Hello, World')
-
-.. question:: io2_q
-
-   .. tabbed:: io2_tabs
-
-        .. tab:: Question
-
-            .. activecode:: io2
-
-               Write code to print
-
-                  ``Hello``
-                  
-                  ``World``
-
-               using 2 print statements.
-               ~~~~
-
-        .. tab:: Hint
-
-           Call print() twice, on two consecutive lines.
-
-        .. tab:: Answer
-
-           .. activecode:: io2_a
-              :nocanvas:
-
-              print("Hello")
-              print("World")
-
+Write code to print 
+**Hello
+World**
+using two print statements.
 
 Question 3:
 
