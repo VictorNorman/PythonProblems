@@ -427,7 +427,7 @@ SECTION 2: Input and Output
 
         .. tab:: Hint
 
-           Use the print() function, and remember that strings are surrounded by double-quotes or single-quotes.
+           Call ``print()`` twice, on two consecutive lines.
 
         .. tab:: Answer
 
@@ -438,28 +438,142 @@ SECTION 2: Input and Output
               print("World")
 
 
-Question 3:
+.. question:: io3_q
 
-Write code to print **Hello** leaving the cursor on the same line.
+   .. tabbed:: io3_tabs
 
-Question 4:
+        .. tab:: Question
 
-Assume you have a variable ``ranking`` set to some integer value. Write a line of code to print the value of ``ranking``.
+            .. activecode:: io3
 
-Question 5:
+               Write code to print
 
-Assume you have two variables ``ranking`` and ``average`` set to come values. Write a line of
-code to print the values with a single space between.
+                  ``Hello``
 
-Question 6:
+               leaving the cursor on the same line.
+               ~~~~
 
-Assume you have two variables ``start`` and ``interval``. Write a line of code to print the sum of
-of the two values.
+        .. tab:: Hint
 
-Question 7:
+           You have to use the optional parameter, ``end``, in the print statement.
 
-Assume you have a variable ``ranking`` set to some integer value.  Write a line of code to print **Ranking :** followed
-by the value ``ranking`` refers to.  E.g., if ``ranking`` was 7, the output would be **Ranking: 7**.
+        .. tab:: Answer
+
+           .. activecode:: io3_a
+              :nocanvas:
+
+              print("Hello", end='')
+
+
+.. question:: io4_q
+
+   .. tabbed:: io4_tabs
+
+        .. tab:: Question
+
+            .. activecode:: io4
+
+               Assume you have a variable ``ranking`` set to some integer value. 
+               Write a line of code to print the value of ``ranking``.
+               ~~~~
+               ranking = 99
+               # Replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+           ``print()`` evaluates each variable or expression before printing it.
+
+        .. tab:: Answer
+
+           .. activecode:: io4_a
+              :nocanvas:
+
+              print(ranking)
+
+.. question:: io5_q
+
+   .. tabbed:: io5_tabs
+
+        .. tab:: Question
+
+            .. activecode:: io5
+
+               Assume you have two variables ``ranking`` and ``average`` set to some values. 
+               Write a line of code to print the values with a single space between.
+               ~~~~
+               ranking = 32
+               average = 34
+               # Replace this comment with your code.
+               ====
+
+        .. tab:: Hint
+
+           The comma in ``print('x', 'y')`` will automatically insert a space between the two values
+
+        .. tab:: Answer
+
+           .. activecode:: io5_a
+              :nocanvas:
+
+              print(ranking, average)
+
+
+.. question:: io6_q
+
+   .. tabbed:: io6_tabs
+
+        .. tab:: Question
+
+            .. activecode:: io6
+
+               Assume you have two variables ``start`` and ``interval``. Write a line of 
+               code to print the sum of the two values.
+               ~~~~
+               start = 103233.1
+               interval = 201787.33
+               # Replace this comment with your code.
+               ====
+
+        .. tab:: Hint
+
+           You can put expressions, like ``x + y`` into a ``print`` statement, too.
+
+        .. tab:: Answer
+
+           .. activecode:: io6_a
+              :nocanvas:
+
+              print(start + interval)
+
+.. question:: io7_q
+
+   .. tabbed:: io7_tabs
+
+        .. tab:: Question
+
+            .. activecode:: io7
+
+               Assume you have a variable ``ranking`` set to some integer value.  
+               Write a line of code to print ``Ranking:`` followed by 
+               the value that ``ranking`` refers to.  Note that there should be 
+               one ``space`` between the ``:`` and the value.
+               E.g., if ``ranking`` was 7, the output would be ``Ranking: 7``.
+               ~~~~
+               ranking = 7
+               # Replace this comment with your code.
+               ====
+
+        .. tab:: Hint
+
+           Remember, the comma in a ``print`` adds a space, so be careful!
+
+        .. tab:: Answer
+
+           .. activecode:: io7_a
+              :nocanvas:
+
+              print('Ranking:', ranking)
 
 Question 8:
 

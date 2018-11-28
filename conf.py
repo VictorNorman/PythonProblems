@@ -45,7 +45,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Runestone Interactive Overview'
-copyright = '2017 vtn2'
+copyright = '2019 vtn2'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

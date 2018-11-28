@@ -122,9 +122,9 @@
   eBookConfig.build_info = "unknown";
   eBookConfig.isLoggedIn = false;
   eBookConfig.useRunestoneServices = false;
-  eBookConfig.python3 = false;
+  eBookConfig.python3 = true;
   eBookConfig.basecourse = 'python_problems';
-  eBookConfig.acDefaultLanguage = 'python' ? 'python' : 'python'
+  eBookConfig.acDefaultLanguage = 'python3' ? 'python3' : 'python'
   eBookConfig.runestone_version = '3.2.15';
   eBookConfig.jobehost = 'http://jobe2.cosc.canterbury.ac.nz';
   eBookConfig.proxyuri_runs = '/jobe/index.php/restapi/runs/';
@@ -843,7 +843,7 @@ print("Hello, World")
 </textarea>
 </div>
 </div><div data-component="tab" data-tabname="Hint" >
-Use the print() function, and remember that strings are surrounded by double-quotes or single-quotes.</div><div data-component="tab" data-tabname="Answer" >
+Call <code class="docutils literal notranslate"><span class="pre">print()</span></code> twice, on two consecutive lines.</div><div data-component="tab" data-tabname="Answer" >
 
 <div data-childcomponent="io2_a" class="runestone explainer ac_section alert alert-warning">
 
@@ -861,20 +861,193 @@ print("World")
 
     </li></ol>
     </div>
-    <p>Question 3:</p>
-<p>Write code to print <strong>Hello</strong> leaving the cursor on the same line.</p>
-<p>Question 4:</p>
-<p>Assume you have a variable <code class="docutils literal notranslate"><span class="pre">ranking</span></code> set to some integer value. Write a line of code to print the value of <code class="docutils literal notranslate"><span class="pre">ranking</span></code>.</p>
-<p>Question 5:</p>
-<p>Assume you have two variables <code class="docutils literal notranslate"><span class="pre">ranking</span></code> and <code class="docutils literal notranslate"><span class="pre">average</span></code> set to come values. Write a line of
-code to print the values with a single space between.</p>
-<p>Question 6:</p>
-<p>Assume you have two variables <code class="docutils literal notranslate"><span class="pre">start</span></code> and <code class="docutils literal notranslate"><span class="pre">interval</span></code>. Write a line of code to print the sum of
-of the two values.</p>
-<p>Question 7:</p>
-<p>Assume you have a variable <code class="docutils literal notranslate"><span class="pre">ranking</span></code> set to some integer value.  Write a line of code to print <strong>Ranking :</strong> followed
-by the value <code class="docutils literal notranslate"><span class="pre">ranking</span></code> refers to.  E.g., if <code class="docutils literal notranslate"><span class="pre">ranking</span></code> was 7, the output would be <strong>Ranking: 7</strong>.</p>
-<p>Question 8:</p>
+    
+    <div data-component="question" class="full-width container question" id="io3_q" >
+    <ol start=3 class=arabic><li class="alert alert-warning">
+
+    <div id='io3_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="io3" class="runestone explainer ac_section alert alert-warning">
+<p>Write code to print</p>
+<blockquote>
+<div><code class="docutils literal notranslate"><span class="pre">Hello</span></code></div></blockquote>
+<p>leaving the cursor on the same line.</p>
+
+<textarea data-component="activecode" id=io3 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+You have to use the optional parameter, <code class="docutils literal notranslate"><span class="pre">end</span></code>, in the print statement.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="io3_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=io3_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+print("Hello", end='')
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="io4_q" >
+    <ol start=4 class=arabic><li class="alert alert-warning">
+
+    <div id='io4_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="io4" class="runestone explainer ac_section alert alert-warning">
+Assume you have a variable <code class="docutils literal notranslate"><span class="pre">ranking</span></code> set to some integer value.
+Write a line of code to print the value of <code class="docutils literal notranslate"><span class="pre">ranking</span></code>.
+<textarea data-component="activecode" id=io4 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+ranking = 99
+# Replace this comment with your code
+====
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+<code class="docutils literal notranslate"><span class="pre">print()</span></code> evaluates each variable or expression before printing it.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="io4_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=io4_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+print(ranking)
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="io5_q" >
+    <ol start=5 class=arabic><li class="alert alert-warning">
+
+    <div id='io5_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="io5" class="runestone explainer ac_section alert alert-warning">
+Assume you have two variables <code class="docutils literal notranslate"><span class="pre">ranking</span></code> and <code class="docutils literal notranslate"><span class="pre">average</span></code> set to some values.
+Write a line of code to print the values with a single space between.
+<textarea data-component="activecode" id=io5 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+ranking = 32
+average = 34
+# Replace this comment with your code.
+====
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+The comma in <code class="docutils literal notranslate"><span class="pre">print('x',</span> <span class="pre">'y')</span></code> will automatically insert a space between the two values</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="io5_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=io5_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+print(ranking, average)
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="io6_q" >
+    <ol start=6 class=arabic><li class="alert alert-warning">
+
+    <div id='io6_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="io6" class="runestone explainer ac_section alert alert-warning">
+Assume you have two variables <code class="docutils literal notranslate"><span class="pre">start</span></code> and <code class="docutils literal notranslate"><span class="pre">interval</span></code>. Write a line of
+code to print the sum of the two values.
+<textarea data-component="activecode" id=io6 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+start = 103233.1
+interval = 201787.33
+# Replace this comment with your code.
+====
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+You can put expressions, like <code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">+</span> <span class="pre">y</span></code> into a <code class="docutils literal notranslate"><span class="pre">print</span></code> statement, too.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="io6_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=io6_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+print(start + interval)
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="io7_q" >
+    <ol start=7 class=arabic><li class="alert alert-warning">
+
+    <div id='io7_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="io7" class="runestone explainer ac_section alert alert-warning">
+Assume you have a variable <code class="docutils literal notranslate"><span class="pre">ranking</span></code> set to some integer value.
+Write a line of code to print <code class="docutils literal notranslate"><span class="pre">Ranking:</span></code> followed by
+the value that <code class="docutils literal notranslate"><span class="pre">ranking</span></code> refers to.  Note that there should be
+one <code class="docutils literal notranslate"><span class="pre">space</span></code> between the <code class="docutils literal notranslate"><span class="pre">:</span></code> and the value.
+E.g., if <code class="docutils literal notranslate"><span class="pre">ranking</span></code> was 7, the output would be <code class="docutils literal notranslate"><span class="pre">Ranking:</span> <span class="pre">7</span></code>.
+<textarea data-component="activecode" id=io7 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+ranking = 7
+# Replace this comment with your code.
+====
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Remember, the comma in a <code class="docutils literal notranslate"><span class="pre">print</span></code> adds a space, so be careful!</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="io7_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=io7_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+print('Ranking:', ranking)
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    <p>Question 8:</p>
 <p>Assume you have</p>
 </div>
 <div class="section" id="section-1-introduction">
@@ -923,7 +1096,7 @@ print(total)
 
             <div class="runestone alert alert-warning">
             <ul data-component="multiplechoice" data-multipleanswers="true"  id="question1_2">
-            Q-13: Which colors might be found in a rainbow? (choose all that are correct)
+            Q-18: Which colors might be found in a rainbow? (choose all that are correct)
             <li data-component="answer" data-correct id="question1_2_opt_a">red</li><li data-component="feedback" id="question1_2_opt_a">Red is a definitely on of the colors.</li>
             
             <li data-component="answer" data-correct id="question1_2_opt_b">yellow</li><li data-component="feedback" id="question1_2_opt_b">Yes, yellow is correct.</li>
@@ -961,7 +1134,7 @@ print(total)
       
     </p>
     <p>
-        &copy; Copyright 2017 vtn2.
+        &copy; Copyright 2019 vtn2.
       Created using <a href="http://runestoneinteractive.org/">Runestone</a> 3.2.15.
     </p>
   </div>
