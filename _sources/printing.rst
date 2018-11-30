@@ -246,3 +246,76 @@ SECTION 2: Input and Output
               :nocanvas:
 
               print('Name:', name, 'Score:', score)
+
+.. question:: io9_q
+
+   .. tabbed:: io9_tabs
+
+        .. tab:: Question
+
+            .. activecode:: io9
+
+               Write code to read in a string value from the user, storing the result
+               in a variable ``name``.
+               ~~~~
+               # Replace this comment with your code.
+               ====
+               from unittest.gui import TestCaseGui
+
+               class myTests(TestCaseGui):
+
+                  def testOne(self):
+                      self.assertIs(type(name), str, 'variable must be a str')
+
+               myTests().main()
+
+        .. tab:: Hint
+
+           Use ``input()``.  You do *NOT* have to convert the result to a string, because
+           ``input()`` returns a string.
+
+        .. tab:: Answer
+
+           .. activecode:: io9_a
+              :nocanvas:
+
+              name = input()
+              # or, better: name = input("Enter a name: ")
+
+.. question:: io10_q
+
+   .. tabbed:: io10_tabs
+
+        .. tab:: Question
+
+            .. activecode:: io10
+
+               Write code to prompt the user for a score, reading in the score into a variable
+               ``score``.  The type of score should be a ``float``.
+
+               ~~~~
+               # Replace this comment with your code.
+               ====
+               from unittest.gui import TestCaseGui
+
+               class myTests(TestCaseGui):
+
+                  def testOne(self):
+                      self.assertIs(type(score), float, 'variable must be a float')
+
+               myTests().main()
+
+        .. tab:: Hint
+
+           Use ``input()``.  You have to convert the result to a float, because
+           ``input()`` returns a string.
+
+        .. tab:: Answer
+
+           .. activecode:: io10_a
+              :nocanvas:
+
+              score = float(input('Enter a score: '))
+              # or, 
+              # print("Enter a score: ", end='')
+              # score = float(input())

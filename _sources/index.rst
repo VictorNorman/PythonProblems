@@ -13,3 +13,4 @@ Introductory text here.
 
    assignments.rst
    printing.rst
+   expressions.rst
