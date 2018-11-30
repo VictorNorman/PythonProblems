@@ -169,10 +169,10 @@ SECTION 3: Expressions
 
             .. activecode:: expr5
 
-               Write a small program that asks the user for a number of days and then prints out
-               the number of complete weeks for that number of days.  E.g., if the user enters
-               9, the program prints out 9 days is 1 complete week (and some remaining days).
-               If the user enters 15, the program prints out 2.
+               You are a bean counter who counts beans and puts them into piles of 16 beans each.
+               Your manager gives you some number of beans and asks you to tell him how many full piles
+               that will produce.  Write a program that asks for the number of beans and prints
+               out the number of full piles.
                ~~~~
                # replace this comment with your code
                ====
@@ -186,5 +186,43 @@ SECTION 3: Expressions
            .. activecode:: expr5_a
               :nocanvas:
 
-              days = int(input('Enter days: '))
-              print(days // 7)
+              beans = int(input('Enter # of beans: '))
+              print(beans // 16)
+
+.. question:: expr6_q
+
+    .. tabbed:: expr6_tabs
+
+        .. tab:: Question
+
+            .. activecode:: expr6
+
+               Remainder and integer division can often be used together.
+               Alter the program from the last exercise to print out not only the number of 
+               full piles of beans, but also the number of beans that remain.
+               E.g., a run of your program might look like this:
+
+               Enter # of beans: ``99``
+
+               99 beans is 6 piles with 3 remaining
+
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+           Use integer division, which divides two numbers, and then "throws out" the fractional part,
+           and modulo division, which divides two numbers, keeping the remainder.
+           You might find it useful to create 3 variables: ``beans`` is the count of beans the user entered, 
+           ``piles`` is the computed number of piles, and ``remaining`` is the computed remainder.
+
+        .. tab:: Answer
+
+           .. activecode:: expr6_a
+              :nocanvas:
+
+              beans = int(input('Enter # of beans: '))
+              piles = beans // 16
+              remaining = beans % 16
+              print(beans, 'beans is', piles, 'piles with', remaining, 'remaining')
