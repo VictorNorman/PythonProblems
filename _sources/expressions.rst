@@ -226,3 +226,35 @@ SECTION 3: Expressions
               piles = beans // 16
               remaining = beans % 16
               print(beans, 'beans is', piles, 'piles with', remaining, 'remaining')
+
+.. question:: expr7_q
+
+    .. tabbed:: expr7_tabs
+
+        .. tab:: Question
+
+            .. activecode:: expr7
+
+               The *discriminant* of the quadratic formula is the expression:
+               ``b^2 - 4ac``
+
+               Write a program to ask the user for a value for ``a``, a value for ``b``,
+               and a value for ``c``, and then prints the discriminant.
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+           Don't forget that you cannot just put variables ``a`` and ``c`` next to each
+           other.  You have to use ``*``.
+
+        .. tab:: Answer
+
+           .. activecode:: expr7_a
+              :nocanvas:
+
+              a = int(input('Enter a: '))
+              b = int(input('Enter b: '))
+              c = int(input('Enter c: '))
+              print(b * b - 4 * a * c)
