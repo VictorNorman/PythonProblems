@@ -108,6 +108,19 @@ SECTION 2: Input and Output
 
               print(ranking)
 
+.. raw:: html
+
+   <div style='display:none;'>
+
+.. activecode:: io5_pre
+
+   ranking = 32
+   average = 34
+
+.. raw:: html
+
+   </div>
+
 .. question:: io5_q
 
    .. tabbed:: io5_tabs
@@ -115,12 +128,11 @@ SECTION 2: Input and Output
         .. tab:: Question
 
             .. activecode:: io5
+               :include: io5_pre
 
                Assume you have two variables ``ranking`` and ``average`` set to some values. 
                Write a line of code to print the values with a single space between.
                ~~~~
-               ranking = 32
-               average = 34
                # Replace this comment with your code.
                ====
 
@@ -191,3 +203,46 @@ SECTION 2: Input and Output
               :nocanvas:
 
               print('Ranking:', ranking)
+
+.. raw:: html
+
+   <div style='display:none;'>
+
+.. activecode:: io8_pre
+
+   name = 'Joe McDonald'
+   score = 7
+
+.. raw:: html
+
+   </div>
+
+.. question:: io8_q
+
+   .. tabbed:: io8_tabs
+
+        .. tab:: Question
+
+            .. activecode:: io8
+               :include: io8_pre
+
+               Assume you have a variable ``name`` set to a student's name, and
+               a variable ``score`` set to the score the student got on the last quiz.
+               Write a line of code to print out the student's name and the student's score, 
+               in the following format.
+               Name: Joe McDonald Score: 7
+               where the student's name is `Joe McDonald` and the student's score is `7`.
+               ~~~~
+               # Replace this comment with your code.
+               ====
+
+        .. tab:: Hint
+
+           You can pass as many parameters as you want to ``print``, separated by commas.
+
+        .. tab:: Answer
+
+           .. activecode:: io8_a
+              :nocanvas:
+
+              print('Name:', name, 'Score:', score)
