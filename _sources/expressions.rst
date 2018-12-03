@@ -316,6 +316,7 @@ SECTION 3: Expressions
 
         .. tab:: Hint
 
+           To read in a decimal value (a ``floating point number``), use ``variable = float(input('prompt'))``.
            Use multiple variables and create your program one line at a time.  Remember that
            15% is 0.15. Don't worry about always having 2 digits after the decimal point.
 
@@ -326,7 +327,7 @@ SECTION 3: Expressions
 
               subtotal = float(input('Enter the amount on the bill: '))
               tip = subtotal * 0.15
-              print("The 15% tip amount is: $" + str(tip))
+              print("The 15% tip amount is: $", tip)
 	      total = subtotal + tip
-              print('The total is: $' + str(total))
+              print('The total is: $', total)
 

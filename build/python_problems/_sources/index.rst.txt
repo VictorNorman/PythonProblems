@@ -12,6 +12,6 @@ Introductory text here.
    :maxdepth: 2
 
    assignments.rst
-   printing.rst
+   io.rst
    expressions.rst
-   strings.rst
+   type_basics.rst

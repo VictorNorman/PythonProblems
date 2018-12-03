@@ -144,7 +144,7 @@ SECTION 2: Input and Output
 
            .. activecode:: io5_a
               :nocanvas:
-               :include: io5_pre
+              :include: io5_pre
 
               print(ranking, average)
 
@@ -245,7 +245,7 @@ SECTION 2: Input and Output
 
            .. activecode:: io8_a
               :nocanvas:
-               :include: io8_pre
+              :include: io8_pre
 
               print('Name:', name, 'Score:', score)
 
