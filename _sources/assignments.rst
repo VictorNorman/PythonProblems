@@ -164,6 +164,7 @@ SECTION 1: Simple Assignments
 
            .. activecode:: sass5_a
               :nocanvas:
+              :include: sass2_a
 
               temperature = temperature + 1
               # Also, could be written temperature += 1
@@ -214,6 +215,7 @@ SECTION 1: Simple Assignments
 
            .. activecode:: sass6_a
               :nocanvas:
+	      :include: sass6_pre
 
               total_pay = hours * hourly_rate
               
@@ -263,6 +265,7 @@ SECTION 1: Simple Assignments
 
            .. activecode:: sass7_a
               :nocanvas:
+              :include: sass7_pre
 
               p1_points = p1_points + p2_points
               # or  p1_points = p2_points + p1_points
@@ -312,6 +315,7 @@ SECTION 1: Simple Assignments
 
            .. activecode:: sass8_a
               :nocanvas:
+              :include: sass8_pre
 
               ball2_direction = ball1_direction
 

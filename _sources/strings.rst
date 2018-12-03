@@ -1,30 +1,33 @@
-SECTION 3: Expressions
+SECTION 4: Strings
 :::::::::::::::::::::::::::
 
 .. raw:: html
 
    <div style='display:none;'>
 
-.. activecode:: expr1_pre
+.. activecode:: str1_pre
 
-   x = 4.2
+   last_name = 'Lincoln'
+   first_name = 'Abraham'
 
 .. raw:: html
 
    </div>
 
-.. question:: expr1_q
+.. question:: str1_q
    :number: 1
 
-   .. tabbed:: expr1_tabs
+   .. tabbed:: str1_tabs
 
         .. tab:: Question
 
-            .. activecode:: expr1
-               :include: expr1_pre
+            .. activecode:: str1
+               :include: str1_pre
 
-               Write the following statement in legal python ``y = x^2 + 2x + 10``, assuming that 
-               variable ``x`` already refers to a value.
+               Assume two variables, ``last_name`` and ``first_name``, have been defined
+	       and refer to strings.
+               Write an assignment statement to make a new string, ``name``, that is the
+	       concatenation of ``first_name`` and ``last_name`` with a space between.
                ~~~~
                # replace this comment with your code
                ====
@@ -33,47 +36,35 @@ SECTION 3: Expressions
                class myTests(TestCaseGui):
 
                   def testOne(self):
-                      self.assertAlmostEqual(x, 4.2)
-                      self.assertAlmostEqual(y, 36.04)
+                      self.assertEqual(name, 'Abraham Lincoln')
 
                myTests().main()
         .. tab:: Hint
 
-           The exponentiation operator is ``**``.  Also, you cannot put ``2`` and ``x`` directly next
-           to each other to do multiplication.  You have to use ``*``.
+           Remember that you use ``+`` to concatenate strings.  Remember that you have to
+	   put a space between the first and last names.
 
         .. tab:: Answer
 
-           .. activecode:: expr1_a
+           .. activecode:: str1_a
               :nocanvas:
-              :include: expr1_pre
+              :include: str1_pre
 
-              y = x ** 2 + 2 * x + 10
+              name = first_name + ' ' + last_name
               
-.. raw:: html
+.. question:: str2_q
 
-   <div style='display:none;'>
-
-.. activecode:: expr2_pre
-
-   miles = 42.5
-   gallons = 1.3
-
-.. raw:: html
-
-   </div>
-
-.. question:: expr2_q
-
-   .. tabbed:: expr2_tabs
+   .. tabbed:: str2_tabs
 
         .. tab:: Question
 
-            .. activecode:: expr2
-               :include: expr2_pre
+            .. activecode:: str2
+               :include: str1_pre
 
-               Given two variables, ``miles`` and ``gallons``, write an assignment statement
-               that creates the variable ``mpg`` set to the computed number of miles per gallon.
+               Assume two variables, ``last_name`` and ``first_name``, have been defined
+	       and refer to strings.
+               Write an assignment statement to make a new string, ``name``, that is the
+	       concatenation of the first initial of ``first_name`` and ``last_name`` with a space between.
                ~~~~
                # replace this comment with your code
                ====
@@ -82,29 +73,33 @@ SECTION 3: Expressions
                class myTests(TestCaseGui):
 
                   def testOne(self):
-                      self.assertAlmostEqual(mpg, miles / gallons)
+                      self.assertEqual(name, 'A Lincoln')
 
                myTests().main()
         .. tab:: Hint
 
-           Use the true division operator ``/``.
+           The first character in a string is accessed by indexing at 0.  E.g.,
+
+           greeting = 'hello'
+
+           firstLetter = greeting[0]
 
         .. tab:: Answer
 
-           .. activecode:: expr2_a
+           .. activecode:: str2_a
               :nocanvas:
-              :include: expr2_pre
+              :include: str1_pre
 
-              mpg = miles / gallons
+              name = first_name[0] + ' ' + last_name
 
 
-.. question:: expr3_q
+.. question:: str3_q
 
-    .. tabbed:: expr3_tabs
+    .. tabbed:: str3_tabs
 
         .. tab:: Question
 
-            .. activecode:: expr3
+            .. activecode:: str3
 
                Create a variable ``remainder`` that refers to the remainder when dividing 17 by 5.
                ~~~~
@@ -125,18 +120,18 @@ SECTION 3: Expressions
 
         .. tab:: Answer
 
-           .. activecode:: expr3_a
+           .. activecode:: str3_a
               :nocanvas:
 
               remainder = 17 % 5
 
-.. question:: expr4_q
+.. question:: str4_q
 
-    .. tabbed:: expr4_tabs
+    .. tabbed:: str4_tabs
 
         .. tab:: Question
 
-            .. activecode:: expr4
+            .. activecode:: str4
 
                Write a small program that asks the user for two numbers and prints out the remainder 
                when dividing the first by the second.  An example run should look like this:
@@ -156,20 +151,20 @@ SECTION 3: Expressions
 
         .. tab:: Answer
 
-           .. activecode:: expr4_a
+           .. activecode:: str4_a
               :nocanvas:
 
               numerator = int(input('Enter the numerator: '))
               denominator = int(input('Enter the denominator: '))
               print('The remainder when dividing is', numerator % denominator)
 
-.. question:: expr5_q
+.. question:: str5_q
 
-    .. tabbed:: expr5_tabs
+    .. tabbed:: str5_tabs
 
         .. tab:: Question
 
-            .. activecode:: expr5
+            .. activecode:: str5
 
                You are a bean counter who counts beans and puts them into piles of 16 beans each.
                Your manager gives you some number of beans and asks you to tell him how many full piles
@@ -185,19 +180,19 @@ SECTION 3: Expressions
 
         .. tab:: Answer
 
-           .. activecode:: expr5_a
+           .. activecode:: str5_a
               :nocanvas:
 
               beans = int(input('Enter # of beans: '))
               print(beans // 16)
 
-.. question:: expr6_q
+.. question:: str6_q
 
-    .. tabbed:: expr6_tabs
+    .. tabbed:: str6_tabs
 
         .. tab:: Question
 
-            .. activecode:: expr6
+            .. activecode:: str6
 
                Remainder and integer division can often be used together.
                Alter the program from the last exercise to print out not only the number of 
@@ -221,7 +216,7 @@ SECTION 3: Expressions
 
         .. tab:: Answer
 
-           .. activecode:: expr6_a
+           .. activecode:: str6_a
               :nocanvas:
 
               beans = int(input('Enter # of beans: '))
@@ -229,15 +224,15 @@ SECTION 3: Expressions
               remaining = beans % 16
               print(beans, 'beans is', piles, 'piles with', remaining, 'remaining')
 
-.. question:: expr7_q
+.. question:: str7_q
 
-    .. tabbed:: expr7_tabs
+    .. tabbed:: str7_tabs
 
         .. tab:: Question
 
-            .. activecode:: expr7
+            .. activecode:: str7
 
-               The *discriminant* of the quadratic formula is the expression:
+               The *discriminant* of the quadratic formula is the stression:
                ``b^2 - 4ac``
 
                Write a program to ask the user for a value for ``a``, a value for ``b``,
@@ -253,7 +248,7 @@ SECTION 3: Expressions
 
         .. tab:: Answer
 
-           .. activecode:: expr7_a
+           .. activecode:: str7_a
               :nocanvas:
 
               a = int(input('Enter a: '))
@@ -262,13 +257,13 @@ SECTION 3: Expressions
               print(b * b - 4 * a * c)
 
 
-.. question:: expr8_q
+.. question:: str8_q
 
-    .. tabbed:: expr8_tabs
+    .. tabbed:: str8_tabs
 
         .. tab:: Question
 
-            .. activecode:: expr8
+            .. activecode:: str8
 
                Write a short program that asks the user to enter an integer, and then prints
 	       out the last digit of the number that was entered.  E.g.,
@@ -287,20 +282,20 @@ SECTION 3: Expressions
 
         .. tab:: Answer
 
-           .. activecode:: expr8_a
+           .. activecode:: str8_a
               :nocanvas:
 
               anInt = int(input('Enter an integer: '))
               lastDigit = anInt % 10
               print('The last digit is', lastDigit)
 
-.. question:: expr9_q
+.. question:: str9_q
 
-    .. tabbed:: expr9_tabs
+    .. tabbed:: str9_tabs
 
         .. tab:: Question
 
-            .. activecode:: expr9
+            .. activecode:: str9
 
                Write a short program that computes a total restaurant bill, including a 15%
 	       tip.  E.g., 
@@ -321,7 +316,7 @@ SECTION 3: Expressions
 
         .. tab:: Answer
 
-           .. activecode:: expr9_a
+           .. activecode:: str9_a
               :nocanvas:
 
               subtotal = float(input('Enter the amount on the bill: '))
