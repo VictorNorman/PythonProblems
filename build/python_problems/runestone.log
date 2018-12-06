@@ -828,3 +828,191 @@ Aborted!
 127.0.0.1 - - [06/Dec/2018 09:19:24] "GET /_static/documentation_options.js HTTP/1.1" 200 -
 
 Aborted!
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:23:30] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:23:30] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:23:30] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:23:30] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:23:30] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:23:33] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:23:33] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [06/Dec/2018 09:23:33] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [06/Dec/2018 09:23:33] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [06/Dec/2018 09:23:33] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:24:07] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:24:07] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:24:07] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:24:07] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:24:07] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:25:09] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:25:09] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:25:09] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:25:09] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:25:09] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:25:29] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:25:29] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:25:29] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:25:29] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:25:29] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:26:03] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:26:03] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:26:03] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:26:03] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:26:03] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:27:42] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:27:42] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:27:42] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:27:42] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:27:42] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:31:48] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:31:48] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:31:48] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:31:48] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:31:48] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:31:57] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 09:31:57] "GET /runestone/ajax/gethist.json?acid=ifstmt1 HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:32:27] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:32:27] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:32:27] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:32:27] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:32:27] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:32:32] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 09:32:32] "GET /runestone/ajax/gethist.json?acid=ifstmt1_a HTTP/1.1" 404 -
+127.0.0.1 - - [06/Dec/2018 09:32:33] "GET /_static/images/ui-bg_glass_75_dadada_1x400.png HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:32:39] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 09:32:39] "GET /runestone/ajax/gethist.json?acid=ifstmt1 HTTP/1.1" 404 -
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:36:44] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:36:44] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:36:44] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:36:44] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:36:44] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:37:26] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 09:37:26] "GET /runestone/ajax/get_datafile?course_id=python_problems&acid=ifstmt2_pre HTTP/1.1" 404 -
+127.0.0.1 - - [06/Dec/2018 09:37:26] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 09:37:26] "GET /runestone/ajax/gethist.json?acid=ifstmt2 HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:37:55] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:37:55] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:37:55] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:37:55] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:37:55] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:38:00] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 09:38:00] "GET /runestone/ajax/gethist.json?acid=ifstmt2 HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 09:41:18] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:41:19] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:41:19] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:41:19] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:41:19] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 09:41:34] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 09:41:34] "GET /runestone/ajax/gethist.json?acid=ifstmt3 HTTP/1.1" 404 -
+127.0.0.1 - - [06/Dec/2018 09:41:37] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 09:41:37] "GET /runestone/ajax/gethist.json?acid=ifstmt3_a HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 10:45:43] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:45:44] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:45:44] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:45:44] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:45:44] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:46:11] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 10:46:11] "GET /runestone/ajax/gethist.json?acid=ifstmt5 HTTP/1.1" 404 -
+127.0.0.1 - - [06/Dec/2018 10:46:38] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 10:46:38] "GET /runestone/ajax/gethist.json?acid=ifstmt5_a HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 10:53:28] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:53:28] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:53:28] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:53:28] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:53:28] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:54:12] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 10:54:12] "GET /runestone/ajax/gethist.json?acid=ifstmt6 HTTP/1.1" 404 -
+127.0.0.1 - - [06/Dec/2018 10:54:12] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [06/Dec/2018 10:54:12] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [06/Dec/2018 10:54:17] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 10:54:17] "GET /runestone/ajax/gethist.json?acid=ifstmt6_a HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 10:57:44] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:57:44] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:57:44] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:57:44] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:57:44] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:58:07] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 10:58:07] "GET /runestone/ajax/gethist.json?acid=ifstmt7 HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 10:59:34] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:59:34] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:59:34] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:59:34] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:59:34] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 10:59:57] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 10:59:57] "GET /runestone/ajax/gethist.json?acid=ifstmt7 HTTP/1.1" 404 -
+127.0.0.1 - - [06/Dec/2018 10:59:57] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [06/Dec/2018 10:59:57] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [06/Dec/2018 11:00:10] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [06/Dec/2018 11:00:10] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [06/Dec/2018 11:00:20] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [06/Dec/2018 11:00:20] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 11:06:15] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:06:15] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:06:15] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:06:15] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:06:15] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:06:33] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 11:06:33] "GET /runestone/ajax/gethist.json?acid=ifstmt8 HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 11:06:59] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:06:59] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:06:59] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:06:59] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:06:59] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:07:12] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 11:07:12] "GET /runestone/ajax/gethist.json?acid=ifstmt8 HTTP/1.1" 404 -
+127.0.0.1 - - [06/Dec/2018 11:07:13] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [06/Dec/2018 11:07:13] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+127.0.0.1 - - [06/Dec/2018 11:08:20] "GET /if_statements.html HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:08:20] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:08:20] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:08:20] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:08:20] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2018 11:08:24] code 404, message File not found
+127.0.0.1 - - [06/Dec/2018 11:08:24] "GET /runestone/ajax/gethist.json?acid=ifstmt8 HTTP/1.1" 404 -
+127.0.0.1 - - [06/Dec/2018 11:08:24] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [06/Dec/2018 11:08:24] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!

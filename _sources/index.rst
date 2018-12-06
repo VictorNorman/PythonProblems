@@ -19,3 +19,6 @@ Introductory text here.
    tuple_basics.rst
    dict_basics.rst
    string_formatting.rst
+   if_statements.rst
+
+
