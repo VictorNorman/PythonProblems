@@ -14,4 +14,8 @@ Introductory text here.
    assignments.rst
    io.rst
    expressions.rst
-   type_basics.rst
+   str_basics.rst
+   list_basics.rst
+   tuple_basics.rst
+   dict_basics.rst
+   string_formatting.rst

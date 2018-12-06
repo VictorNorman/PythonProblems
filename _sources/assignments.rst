@@ -1,4 +1,4 @@
-SECTION 1: Simple Assignments
+Simple Assignments
 :::::::::::::::::::::::::::::
 
 

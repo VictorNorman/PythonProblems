@@ -1,4 +1,4 @@
-SECTION 3: Expressions
+Expressions
 :::::::::::::::::::::::::::
 
 .. raw:: html

@@ -1,4 +1,4 @@
-SECTION 2: Input and Output
+Input and Output
 :::::::::::::::::::::::::::
 
 .. question:: io1_q
