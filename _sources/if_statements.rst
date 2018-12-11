@@ -181,7 +181,7 @@ and
             .. activecode:: ifstmt4
                :include: ifstmt4_pre
 
-               If ``v1`` = 1, and ``v2`` = 2, create a string in variable ``resStr`` which refers to
+               If ``v1`` = 1, and ``v2`` = 2, create string variable ``resStr`` which refers to
                ``variable 1 is 1 (1.0) and variable 2 is 2 (2.0)``.
                ~~~~
                # replace this comment with your code
@@ -394,5 +394,298 @@ and
                   leap = True
               else:
                   leap = False
+
+
+.. raw:: html
+
+   <div style='display:none;'>
+
+.. activecode:: ifstmt9_pre
+
+   result = 44
+
+.. raw:: html
+
+   </div>
+
+.. question:: ifstmt9_q
+
+    .. tabbed:: ifstmt9_tabs
+
+        .. tab:: Question
+
+            .. activecode:: ifstmt9
+               :include: ifstmt9_pre
+
+               Write an if statement that assigns 1 to ``answer`` if variable ``result`` has the value ``100``,
+               and sets ``answer`` to 2 otherwise.
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(answer, 2)
+               myTests().main()
+
+        .. tab:: Hint
+
+           Use an if-else statement.
+           
+
+        .. tab:: Answer
+
+           .. activecode:: ifstmt9_a
+              :nocanvas:
+              :include: ifstmt9_pre
+
+              if result == 100:
+                  answer = 1
+              else:
+                  answer = 2
+
+.. raw:: html
+
+   <div style='display:none;'>
+
+.. activecode:: ifstmt10_pre
+
+   score = 72
+
+.. raw:: html
+
+   </div>
+
+.. question:: ifstmt10_q
+
+    .. tabbed:: ifstmt10_tabs
+
+        .. tab:: Question
+
+            .. activecode:: ifstmt10
+               :include: ifstmt10_pre
+
+               Write an ifelse statement that sets the value of a variable ``gradepoint`` to 4
+               if a variable ``score`` is greater than 90, 3 if ``score`` is between 80 and 89, 
+               2 if ``score`` is between 70 and 79, 1 if ``score`` is between 60 and 69, and 0 otherwise.
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(gradepoint, 2)
+               myTests().main()
+
+        .. tab:: Hint
+
+           Use an if-elif-else statement.
+
+        .. tab:: Answer
+
+           .. activecode:: ifstmt10_a
+              :nocanvas:
+              :include: ifstmt10_pre
+
+              if score > 90:
+                  gradepoint = 4
+              elif score > 80:
+                  gradepoint = 3
+              elif score > 70:
+                  gradepoint = 2
+              elif score > 60:
+                  gradepoint = 1
+              else:
+                  gradepoint = 0
+
+.. question:: ifstmt11_q
+
+    .. tabbed:: ifstmt11_tabs
+
+        .. tab:: Question
+
+            .. activecode:: ifstmt11
+
+               Write a short program that first asks the user to input 3 numbers.
+               (Do this with 3 individual ``input()`` calls, storing the results in 3 variables.)
+               Then, the program prints out the largest of the 3 numbers.
+               You may assume the user enters three distinct values.
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+           Use multiple if/elif statements, each with multiple boolean operators connected together with ``and`` s.
+
+
+        .. tab:: Answer
+
+           .. activecode:: ifstmt11_a
+              :nocanvas:
+
+              v1 = float(input("Enter first value:"))
+              v2 = float(input("Enter second value:"))
+              v3 = float(input("Enter third value:"))
+              if v1 > v2 and v1 > v3:
+                  print(v1)
+              elif v2 > v1 and v2 > v3:
+                  print(v2)
+              else:
+                  print(v3)
+
+.. question:: ifstmt12_q
+
+    .. tabbed:: ifstmt12_tabs
+
+        .. tab:: Question
+
+            .. activecode:: ifstmt12
+
+               Write a short program that asks the user for a payrate and a number of hours, and then
+               prints out the total pay. Any hours over 40 are paid with time and a half.
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+           Use an if-else statement.
+
+        .. tab:: Answer
+
+           .. activecode:: ifstmt12_a
+              :nocanvas:
+
+              payrate = float(input("Enter hourly payrate: "))
+              hours = float(input("Enter total hours worked: "))
+              if hours > 40:
+                  pay = payrate * 1.5 * (hours - 40) + payrate * 40
+              else:
+                  pay = payrate * hours
+              print('Your pay will is', pay)
+
+.. question:: ifstmt13_q
+
+    .. tabbed:: ifstmt13_tabs
+
+        .. tab:: Question
+
+            .. activecode:: ifstmt13
+
+               On a roulette wheel, the pockets are numbered from 0 to 36.  The colors of the pockets
+               are as follows:
+
+               * Pocket 0 is green.
+               * For pockets 1 through 10, the odd-numbered pockets are red and the even-numbered pockets are black.
+               * For pockets 11 through 18, the odd-numbered pockets are black and the even-numbered pockets are red.
+               * For pockets 19 through 28, the odd-numbered pockets are red and the even-numbered pockets are black.
+               * For pockets 29 through 36, the odd-numbered pockets are black and the even-numbered pockets are red.
+
+               Write a program that asks the user to enter a pocket number
+               and displays whether the pocket is green, red, or black.
+               The program should display an error message if the user
+               enters a number that is outside the range of 0 through 36. 
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+           Use an if-elif-else statement with nested if statements in each
+           part.  An odd number is one where when you divide by 2, the
+           remainder is 1.
+
+        .. tab:: Answer
+
+           .. activecode:: ifstmt13_a
+              :nocanvas:
+
+              pocket = int(input("Enter a pocket number from 0 to 36, inclusive: "))
+              if pocket < 0 or pocket > 36:
+                  print("That is not a legal pocket number.")
+              elif pocket == 0:
+                  print("Pocket is green")
+              elif pocket >= 1 and pocket <= 10:
+                  if pocket % 2 == 1:
+                      print("Pocket is red")
+                  else:
+                      print("Pocket is black")
+              elif pocket >= 11 and pocket <= 18:
+                  if pocket % 2 == 0:
+                      print("Pocket is red")
+                  else:
+                      print("Pocket is black")
+              elif pocket >= 19 and pocket <= 28:
+                  if pocket % 2 == 1:
+                      print("Pocket is red")
+                  else:
+                      print("Pocket is black")
+              else:
+                  if pocket % 2 == 0:
+                      print("Pocket is red")
+                  else:
+                      print("Pocket is black")
+
+
+.. question:: ifstmt14_q
+
+    .. tabbed:: ifstmt14_tabs
+
+        .. tab:: Question
+
+            .. activecode:: ifstmt14
+
+               Write a program that asks the user to enter two numbers and
+               an operator to apply to them.  The operator must be one of
+               ``+``, ``-``, ``*``, ``/``, ``//``, or ``%``. The program
+               applies the operator to the numbers and prints the result.
+
+               Here is an example run:
+
+               Enter first number: ``46``
+
+               Enter second number: ``13.5``
+
+               Enter an operator (one of +, -, \*, /, //, %): ``-``
+
+               ``46.0000000 - 13.5000000 = 32.500000`` 
+
+               If the user enters an illegal operator, the program prints
+               an error message.
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+           Use an if-elif-else statement.
+           The print statement for the + operator looks like this:
+
+	   ``print('%f + %f = %f' % (num1, num2, num1 + num2))``
+
+        .. tab:: Answer
+
+           .. activecode:: ifstmt14_a
+              :nocanvas:
+
+              num1 = float(input("Enter first number: "))
+              num2 = float(input("Enter second number: "))
+              op = input("Enter an operator (one of +, -, *, /, //, %): ")
+              if op == '+':
+                  print('%f + %f = %f' % (num1, num2, num1 + num2))
+              elif op == '-':
+                  print('%f - %f = %f' % (num1, num2, num1 - num2))
+              elif op == '*':
+                  print('%f * %f = %f' % (num1, num2, num1 * num2))
+              elif op == '/':
+                  print('%f / %f = %f' % (num1, num2, num1 / num2))
+              elif op == '//':
+                  print('%f // %f = %f' % (num1, num2, num1 // num2))
+              elif op == '%':
+                  print('%f % %f = %f' % (num1, num2, num1 % num2))
+              else:
+                  print('%s is an unknown operator' % op)
+
 
 
