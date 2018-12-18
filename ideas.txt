@@ -1,0 +1,37 @@
+Rewrite this to use nested for loop.
+
+        self.b_list = [Block(20,20), Block(20,60), Block(20,100), Block(20,140), Block(20,180), Block(60,20), Block(60,60), Block(60,100), Block(60,140), Block(60,180), Block(100,20), Block(100,60), Block(100,100), Block(100,140), Block(100,180), Block(140,20), Block(140,60), Block(140,100), Block(140,140), Block(140,180), Block(180,20), Block(180,60), Block(180,100), Block(180,140), Block(180,180), Block(220,20), Block(220,60), Block(220,100), Block(220,140), Block(220,180),Block(260,20), Block(260,60), Block(260,100), Block(260,140), Block(260,180), Block(300,20), Block(300,60), Block(300,100), Block(300,140), Block(300,180), Block(340,20), Block(340,60), Block(340,100), Block(340,140), Block(340,180), Block(380,20), Block(380,60), Block(380,100), Block(380,140), Block(380,180), Block(420,20), Block(420,60), Block(420,100), Block(420,140), Block(420,180), Block(460,20), Block(460,60), Block(460,100), Block(460,140), Block(460,180), Block(500,20), Block(500,60), Block(500,100), Block(500,140), Block(500,180), Block(540,20), Block(540,60), Block(540,100), Block(540,140), Block(540,180), Block(580,20), Block(580,60), Block(580,100), Block(580,140), Block(580,180), Block(620,20), Block(620,60), Block(620,100), Block(620,140), Block(620,180), Block(660,20), Block(660,60), Block(660,100), Block(660,140), Block(660,180), Block(700,20), Block(700,60), Block(700,100), Block(700,140), Block(700,180)]
+
+
+Rewrite this to use a loop:
+
+        if self.dice_holder[0] == 0:
+            self.dice1 = randint(1, 6)
+        elif self.dice_holder[0] == 1:
+            self.dice1_holder = 2
+            
+        if self.dice_holder[1] == 0:
+            self.dice2 = randint(1, 6)
+        elif self.dice_holder[1] == 1:
+            self.dice2_holder = 2
+            
+        if self.dice_holder[2] == 0:
+            self.dice3 = randint(1, 6)
+        elif self.dice_holder[2] == 1:
+            self.dice3_holder = 2
+            
+        if self.dice_holder[3] == 0:
+            self.dice4 = randint(1, 6)
+        elif self.dice_holder[3] == 1:
+            self.dice4_holder = 2
+            
+        if self.dice_holder[4] == 0:
+            self.dice5 = randint(1, 6)
+        elif self.dice_holder[4] == 1:
+            self.dice5_holder = 2
+            
+        if self.dice_holder[5] == 0:
+            self.dice6 = randint(1, 6)
+        elif self.dice_holder[5] == 1:
+            self.dice6_holder = 2
+

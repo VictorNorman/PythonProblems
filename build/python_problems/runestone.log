@@ -1354,3 +1354,413 @@ Aborted!
 127.0.0.1 - - [11/Dec/2018 11:29:11] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
 
 Aborted!
+127.0.0.1 - - [11/Dec/2018 13:21:08] "GET /for_loops.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:21:08] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:21:08] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:21:08] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:21:08] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:21:14] code 404, message File not found
+127.0.0.1 - - [11/Dec/2018 13:21:14] "GET /runestone/ajax/gethist.json?acid=for9_a HTTP/1.1" 404 -
+127.0.0.1 - - [11/Dec/2018 13:21:23] code 404, message File not found
+127.0.0.1 - - [11/Dec/2018 13:21:23] "GET /runestone/ajax/gethist.json?acid=for9 HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [11/Dec/2018 13:28:50] "GET /for_loops.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:28:50] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:28:50] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:28:50] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:28:50] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:28:59] code 404, message File not found
+127.0.0.1 - - [11/Dec/2018 13:28:59] "GET /runestone/ajax/gethist.json?acid=for10_a HTTP/1.1" 404 -
+127.0.0.1 - - [11/Dec/2018 13:29:21] code 404, message File not found
+127.0.0.1 - - [11/Dec/2018 13:29:21] "GET /runestone/ajax/gethist.json?acid=for10 HTTP/1.1" 404 -
+127.0.0.1 - - [11/Dec/2018 13:29:21] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [11/Dec/2018 13:29:21] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+127.0.0.1 - - [11/Dec/2018 13:30:00] "GET /for_loops.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:30:00] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:30:00] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:30:00] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:30:00] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 13:30:04] code 404, message File not found
+127.0.0.1 - - [11/Dec/2018 13:30:04] "GET /runestone/ajax/gethist.json?acid=for10 HTTP/1.1" 404 -
+127.0.0.1 - - [11/Dec/2018 13:30:04] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [11/Dec/2018 13:30:04] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+127.0.0.1 - - [11/Dec/2018 14:55:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 14:55:54] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Dec/2018 14:55:54] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Dec/2018 14:55:54] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Dec/2018 14:55:54] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Dec/2018 14:55:56] "GET /for_loops.html HTTP/1.1" 304 -
+127.0.0.1 - - [11/Dec/2018 14:56:01] "GET /str_basics.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 14:56:07] "GET /tuple_basics.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 14:56:14] "GET /dict_basics.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 14:56:29] "GET /string_formatting.html HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [11/Dec/2018 15:02:01] "GET /assignments.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/Dec/2018 15:02:09] code 404, message File not found
+127.0.0.1 - - [11/Dec/2018 15:02:09] "GET /runestone/ajax/gethist.json?acid=sass1 HTTP/1.1" 404 -
+127.0.0.1 - - [11/Dec/2018 15:02:09] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [11/Dec/2018 15:02:09] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [11/Dec/2018 15:02:22] "GET /index.html HTTP/1.1" 200 -
+
+Aborted!
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET / HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/pygments.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/presenter_mode.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/matrixeq.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/clickable.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/tabbedstuff.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/video.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/webgldemo.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/codemirror.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/webglinteractive.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/reveal.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/parsons.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/js_lib/prettify.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/pytutor.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/modal-basic.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/activecode.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/datafile.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/showEval.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/accessibility.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/dragndrop.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/poll.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/user-highlights.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/runestone-custom-sphinx-bootstrap.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/runestonebase.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/underscore.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/doctools.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/matrixeq.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/clickable.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/timedclickable.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/tabbedstuff.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/fitb.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/timedfitb.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/runestonevideo.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/codemirror.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/css.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/xml.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/htmlmixed.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/javascript.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/webglinteractive.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/FileSaver.min.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/Blob.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/reveal.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/js_lib/hammer.min.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/js_lib/prettify.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/parsons.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/timedparsons.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/animationbase.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/mchoice.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/timedmc.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/timed.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/shortanswer.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/timed_shortanswer.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/d3.v2.min.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/pytutor.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/codelens.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery.highlight.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/bookfuncs.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/python.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery_i18n/CLDRPluralRuleParser.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery_i18n/jquery.i18n.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery_i18n/jquery.i18n.messagestore.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery_i18n/jquery.i18n.fallbacks.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery_i18n/jquery.i18n.language.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery_i18n/jquery.i18n.parser.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery_i18n/jquery.i18n.emitter.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery_i18n/jquery.i18n.emitter.bidi.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/activecode-i18n.en.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/skulpt.min.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/skulpt-stdlib.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/activecode.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/clike.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/timed_activecode.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/datafile.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/showEval.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/timeddnd.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/dragndrop.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/poll.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery-fix.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/bootstrap-3.0.0/js/bootstrap.min.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/bootstrap-sphinx.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/waypoints.min.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/user-highlights.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery.idle-timer.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery.hotkey.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/presenter_mode.js HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/bootstrap-3.0.0/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:06] "GET /_static/img/logo_small.png HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:07] "GET /_static/images/ui-icons_222222_256x240.png HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:08] code 404, message File not found
+153.106.116.7 - - [11/Dec/2018 15:04:08] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+153.106.116.7 - - [11/Dec/2018 15:04:19] "GET /list_basics.html HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:19] "GET /_static/basic.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:19] "GET /_static/fitb.css HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:04:19] "GET /_static/active.png HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:08:49] "GET /tuple_basics.html HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:09:00] code 501, message Unsupported method ('POST')
+153.106.116.7 - - [11/Dec/2018 15:09:00] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+153.106.116.7 - - [11/Dec/2018 15:09:00] "GET /_static/images/ui-bg_glass_75_e6e6e6_1x400.png HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:09:00] "GET /_static/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1" 200 -
+153.106.116.7 - - [11/Dec/2018 15:09:06] "GET /_static/images/ui-bg_glass_75_dadada_1x400.png HTTP/1.1" 200 -
+
+Aborted!
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET / HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET /_static/basic.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET /_static/pygments.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET /_static/presenter_mode.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET /_static/matrixeq.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET /_static/clickable.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET /_static/tabbedstuff.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET /_static/fitb.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET /_static/video.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET /_static/webgldemo.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:42] "GET /_static/webglinteractive.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/codemirror.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/reveal.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/parsons.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/js_lib/prettify.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/pytutor.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/modal-basic.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/activecode.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/datafile.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/showEval.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/accessibility.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/dragndrop.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/poll.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/user-highlights.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/runestone-custom-sphinx-bootstrap.css HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/runestonebase.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/underscore.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/doctools.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/matrixeq.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/clickable.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/timedclickable.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/tabbedstuff.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/fitb.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/timedfitb.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/runestonevideo.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/codemirror.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/xml.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/css.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/htmlmixed.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/javascript.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/webglinteractive.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/FileSaver.min.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/Blob.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/reveal.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/js_lib/prettify.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/js_lib/hammer.min.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/parsons.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/timedparsons.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/animationbase.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/mchoice.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/timedmc.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/timed.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/shortanswer.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/timed_shortanswer.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/d3.v2.min.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/pytutor.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/codelens.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery.highlight.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/bookfuncs.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/python.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery_i18n/CLDRPluralRuleParser.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery_i18n/jquery.i18n.messagestore.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery_i18n/jquery.i18n.fallbacks.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery_i18n/jquery.i18n.language.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery_i18n/jquery.i18n.parser.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery_i18n/jquery.i18n.emitter.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery_i18n/jquery.i18n.emitter.bidi.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/activecode-i18n.en.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/skulpt.min.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/skulpt-stdlib.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/activecode.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/clike.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/timed_activecode.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/datafile.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/showEval.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/dragndrop.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/timeddnd.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/poll.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/jquery-fix.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/bootstrap-3.0.0/js/bootstrap.min.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/bootstrap-sphinx.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/waypoints.min.js HTTP/1.1" 200 -
+153.106.107.202 - - [12/Dec/2018 14:37:43] "GET /_static/user-highlights.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/presenter_mode.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/matrixeq.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/webglinteractive.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/codemirror.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/parsons.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/pytutor.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/accessibility.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/runestone-custom-sphinx-bootstrap.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/clickable.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/tabbedstuff.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/fitb.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/video.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/webgldemo.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/reveal.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/js_lib/prettify.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/modal-basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/activecode.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/datafile.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/showEval.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/dragndrop.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/poll.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/user-highlights.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/runestonebase.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/underscore.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/doctools.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/matrixeq.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/clickable.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/timedclickable.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/tabbedstuff.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/fitb.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/timedfitb.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/runestonevideo.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/codemirror.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/xml.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/css.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/htmlmixed.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/javascript.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/webglinteractive.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/FileSaver.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/Blob.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/reveal.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/js_lib/prettify.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/js_lib/hammer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/parsons.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/animationbase.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/mchoice.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/timedmc.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/timed.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/shortanswer.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/timed_shortanswer.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/d3.v2.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/pytutor.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/codelens.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery.highlight.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/bookfuncs.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/python.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery_i18n/CLDRPluralRuleParser.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery_i18n/jquery.i18n.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery_i18n/jquery.i18n.messagestore.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery_i18n/jquery.i18n.fallbacks.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery_i18n/jquery.i18n.language.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery_i18n/jquery.i18n.parser.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery_i18n/jquery.i18n.emitter.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery_i18n/jquery.i18n.emitter.bidi.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/activecode-i18n.en.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/skulpt.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/skulpt-stdlib.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/activecode.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/clike.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/timed_activecode.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/datafile.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/showEval.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/dragndrop.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/timeddnd.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/poll.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/bootstrap-3.0.0/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/bootstrap-sphinx.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/waypoints.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/user-highlights.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery.idle-timer.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery.hotkey.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/presenter_mode.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/timedparsons.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/jquery-fix.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/img/logo_small.png HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/bootstrap-3.0.0/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:24] "GET /_static/images/ui-icons_222222_256x240.png HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:25] code 404, message File not found
+127.0.0.1 - - [17/Dec/2018 13:22:25] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Dec/2018 13:22:26] "GET /for_loops.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:22:26] "GET /_static/active.png HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [17/Dec/2018 13:25:09] code 404, message File not found
+127.0.0.1 - - [17/Dec/2018 13:25:09] "GET /runestone/ajax/gethist.json?acid=for10 HTTP/1.1" 404 -
+127.0.0.1 - - [17/Dec/2018 13:25:09] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [17/Dec/2018 13:25:09] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [17/Dec/2018 13:25:09] "GET /_static/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:25:09] "GET /_static/images/ui-bg_glass_75_e6e6e6_1x400.png HTTP/1.1" 304 -
+127.0.0.1 - - [17/Dec/2018 13:25:14] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [17/Dec/2018 13:25:14] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+127.0.0.1 - - [17/Dec/2018 13:25:26] "GET /for_loops.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:25:35] code 404, message File not found
+127.0.0.1 - - [17/Dec/2018 13:25:35] "GET /runestone/ajax/gethist.json?acid=for10 HTTP/1.1" 404 -
+127.0.0.1 - - [17/Dec/2018 13:25:35] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [17/Dec/2018 13:25:35] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [17/Dec/2018 13:25:42] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [17/Dec/2018 13:25:42] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [17/Dec/2018 13:25:54] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [17/Dec/2018 13:25:54] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [17/Dec/2018 13:34:03] "GET /for_loops.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:34:43] code 404, message File not found
+127.0.0.1 - - [17/Dec/2018 13:34:43] "GET /runestone/ajax/gethist.json?acid=for11 HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [17/Dec/2018 13:35:25] "GET /for_loops.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:35:41] code 404, message File not found
+127.0.0.1 - - [17/Dec/2018 13:35:41] "GET /runestone/ajax/gethist.json?acid=for11 HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [17/Dec/2018 13:36:25] "GET /for_loops.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Dec/2018 13:36:30] code 404, message File not found
+127.0.0.1 - - [17/Dec/2018 13:36:30] "GET /runestone/ajax/gethist.json?acid=for11 HTTP/1.1" 404 -
+127.0.0.1 - - [17/Dec/2018 13:36:30] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [17/Dec/2018 13:36:30] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+127.0.0.1 - - [17/Dec/2018 13:37:29] "GET /for_loops.html HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [17/Dec/2018 13:37:50] "GET /for_loops.html HTTP/1.1" 200 -
+
+Aborted!
