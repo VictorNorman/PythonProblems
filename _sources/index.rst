@@ -20,6 +20,7 @@ Introductory text here.
    dict_basics.rst
    string_formatting.rst
    if_statements.rst
+   range.rst
    for_loops.rst
 
 
