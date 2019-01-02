@@ -503,6 +503,193 @@ For Loops
                       block_list.append(Block(vert, horiz))
 
 
+.. raw:: html
 
+   <div style='display:none;'>
 
+.. activecode:: for12_pre
 
+   groceries = ['milk', 'bread', 'eggs', 'chocolate (dark)', 'oatmeal']
+
+.. raw:: html
+
+   </div>
+
+.. question:: for12_q
+
+    .. tabbed:: for12_tabs
+
+        .. tab:: Question
+
+            .. activecode:: for12
+               :include: for12_pre
+
+               Integers are used as indices into *sequences*, like lists and
+               strings. So, if you want to access each element in a
+               sequence at a certain index, you need to use a ``for`` loop
+               to iterate over each *index* appropriate for accessing the
+               sequence at that index.
+
+               To get the indices appropriate for indexing a sequence, use
+               ``range(len(sequence))``. 
+
+               Replace ``<1>`` in the following code with a call to
+	       ``range(len(sequence))`` so that the for loop prints out all indices
+	       useful for indexing into the sequence ``groceries``.
+
+               ~~~~
+               for idx in <1>:
+                   print(idx)
+               ====
+
+        .. tab:: Hint
+
+           ``len(groceries)`` returns the number of items in the sequence.
+
+        .. tab:: Answer
+
+           .. activecode:: for12_a
+              :nocanvas:
+              :include: for12_pre
+
+              for idx in range(len(groceries)):
+                  # print out the index for this item in the groceries list.
+                  print(idx)
+              
+.. question:: for13_q
+
+    .. tabbed:: for13_tabs
+
+        .. tab:: Question
+
+            .. activecode:: for13
+               :include: for12_pre
+
+               Replace ``<1>`` in the following code with a call to
+	       ``range(len(sequence))`` so that the for loop uses indexes
+	       useful for indexing into the sequence ``groceries``.
+
+               Replace ``<2>`` with code to access the value in sequence
+               ``groceries`` at index ``idx``.
+
+               Your resulting code should print each item in the ``groceries``
+               list, regardless of how long the ``groceries`` list is.
+
+               ~~~~
+               for idx in <1>:
+                   print(<2>)
+               ====
+
+        .. tab:: Hint
+
+           ``len(groceries)`` returns the number of items in the sequence.
+
+        .. tab:: Answer
+
+           .. activecode:: for13_a
+              :nocanvas:
+              :include: for12_pre
+
+              for idx in range(len(groceries)):
+                  print(groceries[idx])
+              
+.. question:: for14_q
+
+    .. tabbed:: for14_tabs
+
+        .. tab:: Question
+
+            .. activecode:: for14
+               :include: for12_pre
+
+               Replace ``<1>`` in the code so that the for loop prints each
+	       item *except the last* in the list ``groceries``.
+
+               ~~~~
+               for idx in <1>:
+                   print(groceries[idx])
+               ====
+
+        .. tab:: Hint
+
+           ``len(groceries)`` returns the number of items in the sequence,
+           but we want to access all items except the last one, so subtract
+           one from that value.
+
+        .. tab:: Answer
+
+           .. activecode:: for14_a
+              :nocanvas:
+              :include: for12_pre
+
+              for idx in range(len(groceries) - 1):
+                  print(groceries[idx])
+              
+.. question:: for15_q
+
+    .. tabbed:: for15_tabs
+
+        .. tab:: Question
+
+            .. activecode:: for15
+               :include: for12_pre
+
+               Replace ``<1>`` in the code so that the for loop prints each
+	       item *except the first and the last* in the list ``groceries``.
+
+               ~~~~
+               for idx in <1>:
+                   print(groceries[idx])
+               ====
+
+        .. tab:: Hint
+
+           To skip the first item, start with index ``1``, not the default
+           of ``0``.
+
+           ``len(groceries)`` returns the number of items in the sequence,
+           but we want to access all items except the last one, so subtract
+           one from that value.
+
+        .. tab:: Answer
+
+           .. activecode:: for15_a
+              :nocanvas:
+              :include: for12_pre
+
+              for idx in range(1, len(groceries) - 1):
+                  print(groceries[idx])
+
+.. question:: for16_q
+
+    .. tabbed:: for16_tabs
+
+        .. tab:: Question
+
+            .. activecode:: for16
+               :include: for12_pre
+
+               Replace ``<1>`` in the code so that the for loop prints each
+	       item in the list ``groceries`` in reverse order.  Use ``range()``
+               with a step of -1.
+
+               ~~~~
+               for idx in <1>:
+                   print(groceries[idx])
+               ====
+
+        .. tab:: Hint
+
+           You need to use all three parameters to ``range``.  The ``start`` value
+           needs to be the index of the last element of ``groceries`` -- so get
+           the length of ``groceries`` and subtract 1.  The ``stop`` value needs to be
+           less than 0, so that 0 is the last index that ``range`` generates.
+
+        .. tab:: Answer
+
+           .. activecode:: for16_a
+              :nocanvas:
+              :include: for12_pre
+
+              for idx in range(len(groceries) - 1, -1, -1):
+                  print(groceries[idx])

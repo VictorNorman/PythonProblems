@@ -22,5 +22,7 @@ Introductory text here.
    if_statements.rst
    range.rst
    for_loops.rst
-
+   while.rst
+   loops_with_break_continue.rst
+   functions.rst
 

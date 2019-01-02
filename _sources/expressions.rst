@@ -202,11 +202,10 @@ Expressions
                Remainder and integer division can often be used together.
                Alter the program from the last exercise to print out not only the number of 
                full piles of beans, but also the number of beans that remain.
-               E.g., a run of your program might look like this:
+               E.g., a run of your program might look like this::
 
-               Enter # of beans: ``99``
-
-               99 beans is 6 piles with 3 remaining
+                 Enter # of beans: 99
+                 99 beans is 6 piles with 3 remaining
 
                ~~~~
                # replace this comment with your code
@@ -216,8 +215,11 @@ Expressions
 
            Use integer division, which divides two numbers, and then "throws out" the fractional part,
            and modulo division, which divides two numbers, keeping the remainder.
-           You might find it useful to create 3 variables: ``beans`` is the count of beans the user entered, 
+           You might find it useful to create 3 variables: ``beans`` is the count of beans the user entered,
            ``piles`` is the computed number of piles, and ``remaining`` is the computed remainder.
+
+           Also, remember that you cannot add together integers and strings. If you are going to
+           concatenate, both items must be strings.
 
         .. tab:: Answer
 
@@ -271,11 +273,10 @@ Expressions
             .. activecode:: expr8
 
                Write a short program that asks the user to enter an integer, and then prints
-	       out the last digit of the number that was entered.  E.g.,
+	       out the last digit of the number that was entered.  E.g.,::
 
-	       Enter an integer: ``162``
-
-	       The last digit is 2
+	         Enter an integer: 162
+  	         The last digit is 2
                ~~~~
                # replace this comment with your code
                ====
@@ -303,13 +304,11 @@ Expressions
             .. activecode:: expr9
 
                Write a short program that computes a total restaurant bill, including a 15%
-	       tip.  E.g., 
+	       tip.  E.g.,::
 
-	       Enter the amount on the bill: ``30.00``
-
-               The 15% tip amount is: $4.5
-
-	       The total is: $34.5
+  	         Enter the amount on the bill: 30.00
+                 The 15% tip amount is: $4.5
+	         The total is: $34.5
                ~~~~
                # replace this comment with your code
                ====

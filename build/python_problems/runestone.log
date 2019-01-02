@@ -1954,3 +1954,882 @@ Aborted!
 127.0.0.1 - - [20/Dec/2018 11:28:40] "GET /runestone/ajax/gethist.json?acid=range10 HTTP/1.1" 404 -
 
 Aborted!
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/codemirror.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/css.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/parsons.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/d3.v2.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/pytutor.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/skulpt.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/skulpt-stdlib.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/activecode.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:21] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:22] "GET /_static/img/logo_small.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:25] "GET /range.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:02:25] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:02:25] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:02:25] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:02:25] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:03:06] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 10:03:06] "GET /runestone/ajax/gethist.json?acid=range11 HTTP/1.1" 404 -
+127.0.0.1 - - [21/Dec/2018 10:03:18] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 10:03:18] "GET /runestone/ajax/gethist.json?acid=range11_a HTTP/1.1" 404 -
+127.0.0.1 - - [21/Dec/2018 10:04:11] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:04:11] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:04:11] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:04:11] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:04:11] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:04:13] "GET /for_loops.html HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:04:19] "GET /range.html HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:05:02] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:05:02] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:05:02] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:05:02] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:05:02] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 10:08:29] "GET /for_loops.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:08:29] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:08:29] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:08:29] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:08:29] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 10:19:13] "GET /for_loops.html HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:19:13] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:19:13] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:19:13] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:19:13] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:19:17] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:19:17] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:19:17] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:19:17] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:19:17] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:19:18] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:19:18] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:19:18] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:19:18] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:19:18] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 10:19:30] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 10:19:30] "GET /runestone/ajax/gethist.json?acid=while1_a HTTP/1.1" 404 -
+
+Aborted!
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 10:29:09] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:29:09] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:29:09] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:29:09] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:29:09] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:29:18] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 10:29:18] "GET /runestone/ajax/gethist.json?acid=while2_a HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 10:36:08] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:36:08] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:36:08] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:36:08] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:36:08] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 10:36:24] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:36:24] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:36:24] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:36:24] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:36:24] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 10:39:26] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:39:26] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:39:26] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:39:26] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:39:26] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:40:48] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 10:40:48] "GET /runestone/ajax/gethist.json?acid=while3 HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 10:59:15] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:59:15] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:59:15] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:59:15] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:59:15] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 10:59:24] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 10:59:24] "GET /runestone/ajax/gethist.json?acid=while4_a HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 11:09:49] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:09:49] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:09:49] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:09:49] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:09:49] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 11:10:24] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:10:24] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:10:24] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:10:24] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:10:24] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 11:11:20] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:11:20] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:11:20] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:11:20] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:11:20] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 11:13:28] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:13:28] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:13:28] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:13:28] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:13:28] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 11:16:13] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:16:13] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:16:13] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:16:13] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:16:13] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 11:17:40] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:17:40] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:17:40] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:17:40] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:17:40] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 11:18:13] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:18:13] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:18:13] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:18:13] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:18:13] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 11:18:41] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:18:41] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:18:41] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:18:41] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:18:41] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 11:31:08] "GET /while.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:31:08] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:31:08] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:31:08] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:31:08] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:36:34] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:36:34] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 11:36:34] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 11:36:34] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 11:36:34] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 11:40:16] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:40:16] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:40:16] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:40:16] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:40:16] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:40:18] "GET /loops_with_break_continue.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 11:40:18] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 11:40:18] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 11:40:18] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 11:40:18] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 12:00:42] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:00:42] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:00:42] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:00:42] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:00:42] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:00:44] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:00:44] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 12:00:44] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 12:00:44] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 12:00:44] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [21/Dec/2018 12:00:56] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 12:00:56] "GET /runestone/ajax/gethist.json?acid=func1 HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 12:01:48] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:01:48] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:01:48] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:01:48] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:01:48] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:02:02] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 12:02:02] "GET /runestone/ajax/gethist.json?acid=func1 HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 12:08:32] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:08:32] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:08:32] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:08:32] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:08:32] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:08:47] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 12:08:47] "GET /runestone/ajax/gethist.json?acid=func2 HTTP/1.1" 404 -
+127.0.0.1 - - [21/Dec/2018 12:08:47] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [21/Dec/2018 12:08:47] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 12:09:17] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:09:17] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:09:17] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:09:17] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:09:17] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:09:23] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 12:09:23] "GET /runestone/ajax/gethist.json?acid=func2_a HTTP/1.1" 404 -
+127.0.0.1 - - [21/Dec/2018 12:09:40] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 12:09:40] "GET /runestone/ajax/gethist.json?acid=func2 HTTP/1.1" 404 -
+127.0.0.1 - - [21/Dec/2018 12:09:40] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [21/Dec/2018 12:09:40] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 12:11:09] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:11:09] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:11:09] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:11:09] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:11:09] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 12:15:50] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:15:51] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:15:51] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:15:51] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:15:51] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:16:04] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 12:16:04] "GET /runestone/ajax/gethist.json?acid=func3 HTTP/1.1" 404 -
+127.0.0.1 - - [21/Dec/2018 12:16:04] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [21/Dec/2018 12:16:04] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [21/Dec/2018 12:16:32] "GET /_static/images/ui-bg_glass_65_ffffff_1x400.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:16:40] code 404, message File not found
+127.0.0.1 - - [21/Dec/2018 12:16:40] "GET /runestone/ajax/gethist.json?acid=func3_a HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 12:17:44] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:17:44] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:17:44] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:17:44] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:17:44] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [21/Dec/2018 12:19:01] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:19:01] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:19:01] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:19:01] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [21/Dec/2018 12:19:01] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [22/Dec/2018 11:11:04] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:11:04] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:11:04] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:11:04] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:11:04] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:11:04] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:11:27] code 404, message File not found
+127.0.0.1 - - [22/Dec/2018 11:11:27] "GET /runestone/ajax/gethist.json?acid=func5 HTTP/1.1" 404 -
+127.0.0.1 - - [22/Dec/2018 11:11:27] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [22/Dec/2018 11:11:27] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+127.0.0.1 - - [22/Dec/2018 11:20:41] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:20:41] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:20:41] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:20:41] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:20:41] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [22/Dec/2018 11:21:09] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:21:09] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:21:09] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:21:09] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:21:09] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [22/Dec/2018 11:21:22] "GET /functions.html HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 11:21:22] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 11:21:22] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 11:21:22] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 11:21:22] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 11:21:41] code 404, message File not found
+127.0.0.1 - - [22/Dec/2018 11:21:41] "GET /runestone/ajax/gethist.json?acid=func6_a HTTP/1.1" 404 -
+127.0.0.1 - - [22/Dec/2018 11:21:49] code 404, message File not found
+127.0.0.1 - - [22/Dec/2018 11:21:49] "GET /runestone/ajax/gethist.json?acid=func6 HTTP/1.1" 404 -
+127.0.0.1 - - [22/Dec/2018 11:21:50] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [22/Dec/2018 11:21:50] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+
+Aborted!
+127.0.0.1 - - [22/Dec/2018 11:29:05] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:29:05] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:29:05] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:29:05] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:29:05] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [22/Dec/2018 11:29:43] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:29:43] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:29:43] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:29:43] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:29:43] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:30:06] code 404, message File not found
+127.0.0.1 - - [22/Dec/2018 11:30:06] "GET /runestone/ajax/gethist.json?acid=func7 HTTP/1.1" 404 -
+127.0.0.1 - - [22/Dec/2018 11:30:06] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [22/Dec/2018 11:30:06] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [22/Dec/2018 11:34:18] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 11:34:18] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/codemirror.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/css.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/js_lib/hammer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/parsons.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/timed.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/d3.v2.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/pytutor.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/skulpt.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:19] "GET /_static/skulpt-stdlib.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:20] "GET /_static/activecode.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:20] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:20] "GET /_static/bootstrap-3.0.0/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:20] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:20] "GET /_static/img/logo_small.png HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 11:34:21] code 404, message File not found
+127.0.0.1 - - [22/Dec/2018 11:34:21] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Dec/2018 19:10:56] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 19:10:56] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 19:10:56] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 19:10:56] "GET /_static/codemirror.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 19:10:56] "GET /_static/parsons.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 19:10:56] "GET /_static/pytutor.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 19:10:56] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 19:10:56] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 19:10:56] "GET /_static/runestone-custom-sphinx-bootstrap.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 19:10:56] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 19:10:56] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/Dec/2018 19:10:58] "GET /assignments.html HTTP/1.1" 200 -
+127.0.0.1 - - [22/Dec/2018 19:11:03] code 404, message File not found
+127.0.0.1 - - [22/Dec/2018 19:11:03] "GET /runestone/ajax/gethist.json?acid=sass1 HTTP/1.1" 404 -
+127.0.0.1 - - [22/Dec/2018 19:11:03] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [22/Dec/2018 19:11:03] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [22/Dec/2018 19:11:26] code 404, message File not found
+127.0.0.1 - - [22/Dec/2018 19:11:26] "GET /runestone/ajax/gethist.json?acid=sass2 HTTP/1.1" 404 -
+127.0.0.1 - - [22/Dec/2018 19:11:26] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [22/Dec/2018 19:11:26] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [22/Dec/2018 19:11:33] code 404, message File not found
+127.0.0.1 - - [22/Dec/2018 19:11:33] "GET /runestone/ajax/gethist.json?acid=sass3 HTTP/1.1" 404 -
+127.0.0.1 - - [22/Dec/2018 19:11:33] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [22/Dec/2018 19:11:33] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [22/Dec/2018 19:11:45] code 404, message File not found
+127.0.0.1 - - [22/Dec/2018 19:11:45] "GET /runestone/ajax/gethist.json?acid=sass4 HTTP/1.1" 404 -
+127.0.0.1 - - [22/Dec/2018 19:11:45] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [22/Dec/2018 19:11:45] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [22/Dec/2018 19:12:00] code 404, message File not found
+127.0.0.1 - - [22/Dec/2018 19:12:00] "GET /runestone/ajax/gethist.json?acid=sass5 HTTP/1.1" 404 -
+127.0.0.1 - - [22/Dec/2018 19:12:00] code 501, message Unsupported method ('POST')
+127.0.0.1 - - [22/Dec/2018 19:12:00] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+
+Aborted!
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/webglinteractive.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/codemirror.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/parsons.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/pytutor.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/runestone-custom-sphinx-bootstrap.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/presenter_mode.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/matrixeq.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/clickable.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/tabbedstuff.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/fitb.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/video.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/webgldemo.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/reveal.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/js_lib/prettify.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/modal-basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/activecode.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/datafile.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/showEval.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/accessibility.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/dragndrop.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/poll.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/user-highlights.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/runestonebase.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/underscore.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/doctools.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/matrixeq.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/clickable.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/tabbedstuff.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/fitb.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/codemirror.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/xml.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/css.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/htmlmixed.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/javascript.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/webglinteractive.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/FileSaver.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/Blob.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/reveal.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/js_lib/prettify.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/js_lib/hammer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/parsons.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/animationbase.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/mchoice.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/timedmc.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/timed.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/shortanswer.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/d3.v2.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/pytutor.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/bookfuncs.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/python.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery_i18n/CLDRPluralRuleParser.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery_i18n/jquery.i18n.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery_i18n/jquery.i18n.messagestore.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery_i18n/jquery.i18n.fallbacks.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery_i18n/jquery.i18n.language.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery_i18n/jquery.i18n.parser.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery_i18n/jquery.i18n.emitter.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery_i18n/jquery.i18n.emitter.bidi.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/activecode-i18n.en.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/skulpt.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/skulpt-stdlib.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/activecode.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/clike.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/timed_activecode.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/datafile.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/showEval.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/dragndrop.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/poll.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/bootstrap-3.0.0/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/bootstrap-sphinx.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/waypoints.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/user-highlights.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery.idle-timer.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery.hotkey.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/presenter_mode.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/timedclickable.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/timedfitb.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/runestonevideo.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/timedparsons.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/timed_shortanswer.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/codelens.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery.highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/timeddnd.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/jquery-fix.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/img/logo_small.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:12] "GET /_static/bootstrap-3.0.0/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:13] "GET /_static/images/ui-icons_222222_256x240.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:20:13] code 404, message File not found
+127.0.0.1 - - [28/Dec/2018 19:20:13] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [28/Dec/2018 19:21:00] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:21:00] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:21:00] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:21:00] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:21:00] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET / HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/basic.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/pygments.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/presenter_mode.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/matrixeq.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/clickable.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/tabbedstuff.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/fitb.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/video.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/webgldemo.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/webglinteractive.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/codemirror.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/reveal.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/parsons.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/js_lib/prettify.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/pytutor.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/modal-basic.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/activecode.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/datafile.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/showEval.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/accessibility.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/dragndrop.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/poll.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/user-highlights.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/runestone-custom-sphinx-bootstrap.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/runestonebase.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/underscore.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/doctools.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/matrixeq.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/clickable.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/timedclickable.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/tabbedstuff.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/fitb.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/timedfitb.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/runestonevideo.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/codemirror.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/xml.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/css.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/htmlmixed.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/javascript.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/webglinteractive.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/FileSaver.min.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/Blob.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/reveal.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/js_lib/prettify.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/js_lib/hammer.min.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/parsons.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/timedparsons.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/animationbase.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/mchoice.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/timedmc.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/timed.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/shortanswer.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/timed_shortanswer.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/d3.v2.min.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/pytutor.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/codelens.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery.highlight.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/bookfuncs.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/python.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery_i18n/CLDRPluralRuleParser.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery_i18n/jquery.i18n.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery_i18n/jquery.i18n.messagestore.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery_i18n/jquery.i18n.fallbacks.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery_i18n/jquery.i18n.language.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery_i18n/jquery.i18n.parser.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery_i18n/jquery.i18n.emitter.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery_i18n/jquery.i18n.emitter.bidi.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/activecode-i18n.en.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/skulpt.min.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/skulpt-stdlib.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/activecode.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/clike.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/timed_activecode.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/datafile.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/showEval.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/dragndrop.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/timeddnd.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/poll.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery-fix.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/bootstrap-3.0.0/js/bootstrap.min.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/bootstrap-sphinx.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/waypoints.min.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/user-highlights.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery.idle-timer.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery.hotkey.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:07] "GET /_static/presenter_mode.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:08] "GET /_static/img/logo_small.png HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:08] "GET /_static/bootstrap-3.0.0/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:08] "GET /_static/images/ui-icons_222222_256x240.png HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:09] code 404, message File not found
+192.168.2.56 - - [28/Dec/2018 19:21:09] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET / HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/basic.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/pygments.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/bootstrap-3.0.0/css/bootstrap.min.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/presenter_mode.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/matrixeq.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/clickable.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/tabbedstuff.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/fitb.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/video.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/webgldemo.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/webglinteractive.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/codemirror.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/reveal.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/parsons.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/js_lib/prettify.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/pytutor.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/modal-basic.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/activecode.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/datafile.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/showEval.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/accessibility.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/dragndrop.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/poll.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/jquery-ui-1.10.3.custom.min.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/user-highlights.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/runestone-custom-sphinx-bootstrap.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/runestonebase.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/jquery.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:32] "GET /_static/underscore.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/doctools.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/matrixeq.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/clickable.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/timedclickable.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/tabbedstuff.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/fitb.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/timedfitb.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/runestonevideo.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/codemirror.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/xml.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/css.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/htmlmixed.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/javascript.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/webglinteractive.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/FileSaver.min.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/Blob.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/reveal.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/js_lib/prettify.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/js_lib/hammer.min.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/parsons.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/timedparsons.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/animationbase.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/mchoice.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/timedmc.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/timed.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/shortanswer.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/timed_shortanswer.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/d3.v2.min.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/pytutor.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/codelens.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery.highlight.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/bookfuncs.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/python.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery_i18n/CLDRPluralRuleParser.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery_i18n/jquery.i18n.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery_i18n/jquery.i18n.messagestore.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery_i18n/jquery.i18n.fallbacks.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery_i18n/jquery.i18n.language.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery_i18n/jquery.i18n.parser.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery_i18n/jquery.i18n.emitter.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery_i18n/jquery.i18n.emitter.bidi.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/activecode-i18n.en.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/skulpt.min.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/skulpt-stdlib.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/activecode.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/clike.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/timed_activecode.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/datafile.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/showEval.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/dragndrop.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/timeddnd.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/poll.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery-fix.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/bootstrap-3.0.0/js/bootstrap.min.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/bootstrap-sphinx.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/waypoints.min.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/user-highlights.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery.idle-timer.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery.hotkey.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/presenter_mode.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/bootstrap-3.0.0/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/img/logo_small.png HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:33] "GET /_static/images/ui-icons_222222_256x240.png HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:34] code 404, message File not found
+192.168.2.130 - - [28/Dec/2018 19:21:34] "GET /runestone/static/favicon.ico HTTP/1.1" 404 -
+192.168.2.130 - - [28/Dec/2018 19:21:40] "GET /assignments.html HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:40] "GET /_static/active.png HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:40] "GET /expressions.html HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:21:40] "GET /_static/basic.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:21:40] "GET /_static/pygments.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:21:40] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:21:40] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:21:41] "GET /_static/active.png HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:58] "GET /expressions.html HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:21:58] "GET /_static/basic.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:21:58] "GET /_static/basic.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:21:58] "GET /_static/pygments.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:21:58] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:21:58] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+192.168.2.130 - - [28/Dec/2018 19:21:58] "GET /_static/pygments.css HTTP/1.1" 304 -
+192.168.2.130 - - [28/Dec/2018 19:21:58] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+192.168.2.130 - - [28/Dec/2018 19:21:58] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+192.168.2.130 - - [28/Dec/2018 19:22:48] code 501, message Unsupported method ('POST')
+192.168.2.130 - - [28/Dec/2018 19:22:48] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+192.168.2.130 - - [28/Dec/2018 19:22:48] "GET /_static/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:22:48] "GET /_static/images/ui-bg_glass_75_e6e6e6_1x400.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:23:04] code 404, message File not found
+127.0.0.1 - - [28/Dec/2018 19:23:04] "GET /runestone/ajax/gethist.json?acid=expr1_a HTTP/1.1" 404 -
+192.168.2.56 - - [28/Dec/2018 19:23:04] "GET /_static/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:23:04] "GET /_static/images/ui-bg_glass_75_e6e6e6_1x400.png HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:23:05] "GET /_static/images/ui-bg_glass_75_dadada_1x400.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Dec/2018 19:23:07] code 404, message File not found
+127.0.0.1 - - [28/Dec/2018 19:23:07] "GET /runestone/ajax/gethist.json?acid=expr1 HTTP/1.1" 404 -
+192.168.2.56 - - [28/Dec/2018 19:23:07] code 501, message Unsupported method ('POST')
+192.168.2.56 - - [28/Dec/2018 19:23:07] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+192.168.2.130 - - [28/Dec/2018 19:23:48] code 501, message Unsupported method ('POST')
+192.168.2.130 - - [28/Dec/2018 19:23:48] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+192.168.2.56 - - [28/Dec/2018 19:24:29] "GET /index.html HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:24:29] "GET /_static/basic.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:24:29] "GET /_static/pygments.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:24:29] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:24:29] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:24:31] "GET /if_statements.html HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:24:40] code 501, message Unsupported method ('POST')
+192.168.2.130 - - [28/Dec/2018 19:24:40] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+192.168.2.130 - - [28/Dec/2018 19:24:43] "GET /_static/images/ui-bg_glass_75_dadada_1x400.png HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:25:02] "GET /_static/basic.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:25:02] "GET /_static/pygments.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:25:02] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:25:02] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+192.168.2.130 - - [28/Dec/2018 19:25:03] code 501, message Unsupported method ('POST')
+192.168.2.130 - - [28/Dec/2018 19:25:03] "POST /runestone/ajax/hsblog HTTP/1.1" 501 -
+127.0.0.1 - - [28/Dec/2018 19:28:09] code 404, message File not found
+127.0.0.1 - - [28/Dec/2018 19:28:09] "GET /runestone/ajax/gethist.json?acid=expr5_a HTTP/1.1" 404 -
+127.0.0.1 - - [28/Dec/2018 19:28:33] code 404, message File not found
+127.0.0.1 - - [28/Dec/2018 19:28:33] "GET /runestone/ajax/gethist.json?acid=expr6_a HTTP/1.1" 404 -
+192.168.2.56 - - [28/Dec/2018 19:28:58] "GET /index.html HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:28:58] "GET /_static/basic.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:28:58] "GET /_static/pygments.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:28:58] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:28:58] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:28:59] "GET /functions.html HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:29:12] "GET /loops_with_break_continue.html HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:29:16] "GET /while.html HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:30:00] "GET /index.html HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:30:00] "GET /_static/basic.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:30:00] "GET /_static/pygments.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:30:00] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:30:00] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Dec/2018 19:30:20] code 404, message File not found
+127.0.0.1 - - [28/Dec/2018 19:30:20] "GET /runestone/ajax/gethist.json?acid=expr7_a HTTP/1.1" 404 -
+192.168.2.130 - - [28/Dec/2018 19:32:55] "GET /_static/images/ui-bg_glass_65_ffffff_1x400.png HTTP/1.1" 200 -
+
+Aborted!
+192.168.2.56 - - [28/Dec/2018 19:35:07] "GET /expressions.html HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:35:07] "GET /_static/basic.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:35:07] "GET /_static/pygments.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:35:07] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:35:07] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:36:44] "GET /expressions.html HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:36:44] "GET /_static/basic.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:36:44] "GET /_static/pygments.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:36:44] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:36:44] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:37:04] "GET /index.html HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:37:04] "GET /_static/basic.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:37:04] "GET /_static/pygments.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:37:04] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:37:04] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:37:05] "GET /string_formatting.html HTTP/1.1" 200 -
+192.168.2.56 - - [28/Dec/2018 19:38:27] "GET /index.html HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:38:27] "GET /_static/basic.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:38:27] "GET /_static/pygments.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:38:27] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:38:27] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+192.168.2.56 - - [28/Dec/2018 19:38:29] "GET /expressions.html HTTP/1.1" 304 -
+192.168.2.130 - - [28/Dec/2018 19:46:03] "GET /index.html HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:46:03] "GET /_static/basic.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:46:03] "GET /_static/pygments.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:46:03] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:46:03] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:46:10] "GET /string_formatting.html HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:47:17] "GET /range.html HTTP/1.1" 200 -
+192.168.2.130 - - [28/Dec/2018 19:47:17] "GET /_static/basic.css HTTP/1.1" 304 -
+192.168.2.130 - - [28/Dec/2018 19:47:17] "GET /_static/pygments.css HTTP/1.1" 304 -
+192.168.2.130 - - [28/Dec/2018 19:47:17] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+192.168.2.130 - - [28/Dec/2018 19:47:17] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+192.168.2.130 - - [28/Dec/2018 19:48:09] "GET /functions.html HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/codemirror.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/parsons.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/d3.v2.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/jquery.jsPlumb-1.3.10-all-min.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/pytutor.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/skulpt.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/skulpt-stdlib.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/activecode.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/jquery-ui-1.10.3.custom.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 10:07:52] "GET /_static/processing-1.4.1.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 12:24:03] "GET /loops_with_break_continue.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 12:24:03] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:24:03] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:24:03] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:24:03] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:24:03] "GET /_static/active.png HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [29/Dec/2018 12:24:13] "GET /loops_with_break_continue.html HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [29/Dec/2018 12:24:51] "GET /loops_with_break_continue.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 12:24:52] "GET /loops_with_break_continue.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:24:56] code 404, message File not found
+127.0.0.1 - - [29/Dec/2018 12:24:56] "GET /runestone/ajax/gethist.json?acid=break1_a HTTP/1.1" 404 -
+127.0.0.1 - - [29/Dec/2018 12:24:56] "GET /_static/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:24:56] "GET /_static/images/ui-bg_glass_75_e6e6e6_1x400.png HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:24:57] "GET /_static/images/ui-bg_glass_75_dadada_1x400.png HTTP/1.1" 304 -
+
+Aborted!
+127.0.0.1 - - [29/Dec/2018 12:26:06] "GET /loops_with_break_continue.html HTTP/1.1" 200 -
+
+Aborted!
+127.0.0.1 - - [29/Dec/2018 12:26:18] "GET /loops_with_break_continue.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 12:26:25] code 404, message File not found
+127.0.0.1 - - [29/Dec/2018 12:26:25] "GET /runestone/ajax/gethist.json?acid=break1_a HTTP/1.1" 404 -
+
+Aborted!
+127.0.0.1 - - [29/Dec/2018 12:38:25] "GET /loops_with_break_continue.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 12:38:25] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 12:38:25] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 12:38:25] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 12:38:25] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 12:38:35] code 404, message File not found
+127.0.0.1 - - [29/Dec/2018 12:38:35] "GET /runestone/ajax/gethist.json?acid=break1_a HTTP/1.1" 404 -
+127.0.0.1 - - [29/Dec/2018 12:38:41] code 404, message File not found
+127.0.0.1 - - [29/Dec/2018 12:38:41] "GET /runestone/ajax/gethist.json?acid=break2_a HTTP/1.1" 404 -
+127.0.0.1 - - [29/Dec/2018 12:41:18] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 12:41:18] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:41:18] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:41:18] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:41:18] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:41:20] "GET /functions.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2018 12:47:00] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:47:00] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:47:00] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:47:00] "GET /_static/bootstrap-sphinx.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:47:00] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Dec/2018 12:47:02] "GET /loops_with_break_continue.html HTTP/1.1" 304 -
+
+Aborted!
