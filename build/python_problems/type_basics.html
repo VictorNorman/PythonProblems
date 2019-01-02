@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SECTION 4: Basic Types &#8212; Runestone Interactive Overview</title>
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/presenter_mode.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="_static/reveal.css" />
+    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/js_lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="_static/accessibility.css" />
+    <link rel="stylesheet" type="text/css" href="_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="_static/poll.css" />
+    <link rel="stylesheet" href="_static/jquery-ui-1.10.3.custom.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="_static/runestone-custom-sphinx-bootstrap.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/runestonebase.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/matrixeq.js"></script>
+    <script type="text/javascript" src="_static/clickable.js"></script>
+    <script type="text/javascript" src="_static/timedclickable.js"></script>
+    <script type="text/javascript" src="_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="_static/fitb.js"></script>
+    <script type="text/javascript" src="_static/timedfitb.js"></script>
+    <script type="text/javascript" src="_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="_static/codemirror.js"></script>
+    <script type="text/javascript" src="_static/xml.js"></script>
+    <script type="text/javascript" src="_static/css.js"></script>
+    <script type="text/javascript" src="_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="_static/javascript.js"></script>
+    <script type="text/javascript" src="_static/webglinteractive.js"></script>
+    <script type="text/javascript" src="_static/FileSaver.min.js"></script>
+    <script type="text/javascript" src="_static/Blob.js"></script>
+    <script type="text/javascript" src="_static/reveal.js"></script>
+    <script type="text/javascript" src="_static/js_lib/prettify.js"></script>
+    <script type="text/javascript" src="_static/js_lib/hammer.min.js"></script>
+    <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/timedparsons.js"></script>
+    <script type="text/javascript" src="_static/animationbase.js"></script>
+    <script type="text/javascript" src="_static/mchoice.js"></script>
+    <script type="text/javascript" src="_static/timedmc.js"></script>
+    <script type="text/javascript" src="_static/timed.js"></script>
+    <script type="text/javascript" src="_static/shortanswer.js"></script>
+    <script type="text/javascript" src="_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="_static/pytutor.js"></script>
+    <script type="text/javascript" src="_static/codelens.js"></script>
+    <script type="text/javascript" src="_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="_static/python.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@4.0.0-rc.2/build/vega.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@2.5.0/build/vega-lite.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@3.14.0/build/vega-embed.js"></script>
+    <script type="text/javascript" src="_static/activecode.js"></script>
+    <script type="text/javascript" src="_static/clike.js"></script>
+    <script type="text/javascript" src="_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="_static/datafile.js"></script>
+    <script type="text/javascript" src="_static/showEval.js"></script>
+    <script type="text/javascript" src="_static/dragndrop.js"></script>
+    <script type="text/javascript" src="_static/timeddnd.js"></script>
+    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="_static/user-highlights.js"></script>
+    <script type="text/javascript" src="_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="_static/presenter_mode.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="SECTION 3: Expressions" href="expressions.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<link rel="shortcut icon" href="/runestone/static/favicon.ico" type="image/ico" />
+
+<script type="text/javascript">
+  eBookConfig = {};
+  eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+  eBookConfig.app = eBookConfig.host+'/runestone';
+  eBookConfig.ajaxURL = eBookConfig.app+'/ajax/';
+  eBookConfig.course = 'python_problems';
+  eBookConfig.logLevel = 0;
+  eBookConfig.loginRequired = false;
+  eBookConfig.build_info = "unknown";
+  eBookConfig.isLoggedIn = false;
+  eBookConfig.useRunestoneServices = false;
+  eBookConfig.python3 = true;
+  eBookConfig.basecourse = 'python_problems';
+  eBookConfig.acDefaultLanguage = 'python3' ? 'python3' : 'python'
+  eBookConfig.runestone_version = '3.2.15';
+  eBookConfig.jobehost = 'http://jobe2.cosc.canterbury.ac.nz';
+  eBookConfig.proxyuri_runs = '/jobe/index.php/restapi/runs/';
+  eBookConfig.proxyuri_files = '/jobe/index.php/restapi/files/';
+  eBookConfig.downloadsEnabled = false;
+  eBookConfig.enable_chatcodes = false ? false : false;
+</script>
+
+<div id="fb-root"></div>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&status=0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+  </head><body>
+
+
+<!-- Begin navbar -->
+<div id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type='button' class='navbar-toggle' data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <div>
+        <a class="brand-logo" style='background: transparent url("_static/img/logo_small.png") no-repeat 0px 0px;' href="/runestone/default/user/login">&nbsp; </a>
+        <a class="navbar-brand" href="index.html">Problems in Python</a>
+      </div>
+    </div>
+
+     
+
+    <div class="navbar-collapse collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right" >
+
+        <li class="divider-vertical"></li>
+
+        <!-- social media dropdown -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+            <i class="glyphicon glyphicon-globe" style="opacity: 0.9"></i>
+          </a>
+          <ul class="dropdown-menu social-menu">
+              <li>
+                <div>
+                  <b>Runestone in social media:</b>
+                </div>
+                <a href="https://twitter.com/iRunestone" class="twitter-follow-button" data-show-count="true">Follow @iRunestone</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                <div class="fb-like" data-href="https://www.facebook.com/RunestoneInteractive" data-send="false" data-layout="button_count" data-width="300" data-show-faces="false" data-font="arial"></div>
+              </li>
+
+              <li class="divider"></li>
+              <li>
+                <div>
+                  <b>Help support us:</b>
+                </div>
+                <div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                  ">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+
+                </div>
+              </li>
+          </ul>
+        </li>
+        <!-- end social media dropdown -->
+
+        <li class="divider-vertical"></li>
+
+        <!-- search dropdown -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+            <i class="glyphicon glyphicon-search" style='opacity:0.9;'></i>
+          </a>
+          <ul class='dropdown-menu'>
+            
+                <li><a href='index.html'>Table of Contents</a></li>
+            
+            <li><a href='/runestone/static/python_problems/genindex.html'>Book Index</a></li>
+            <li class="divider"></li>
+            <li style="width: 240px;">
+              <form class="navbar-search" style="margin:10px;" action="search.html" method="get">
+                <div class="input-group">
+                  <input type="text" class="form-control" name="q" placeholder="Search this book" />
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" style="margin:0;" type="submit">
+                      <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                  </span>
+                </div><!-- /input-group -->
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+            </li>
+          </ul>
+        </li>
+        <!-- end search dropdown -->
+
+        <li class="divider-vertical"></li>
+
+        
+        <li class="divider-vertical"></li>
+        <!-- <li id="scratch_ac_link"><a href="javascript:ACFactory.toggleScratchActivecode()">Scratch ActiveCode</a></li> -->
+
+        <!-- <li class="dropdown">             -->
+          <li id="scratch_ac_link" class="dropdown"><a href="javascript:ACFactory.toggleScratchActivecode()">
+              <i class="glyphicon glyphicon-pencil" style="opacity:0.9;"></i></a></li>
+        <!-- </li> -->
+
+        <li class="divider-vertical"></li>
+
+        <!-- help menu dropdown -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+            <i class="glyphicon glyphicon-question-sign" style="opacity:0.9;"></i>
+          </a>
+          <ul class="dropdown-menu user-menu">
+            <li><a href='/runestone/static/python_problems/navhelp.html'>Navigation Help</a></li>
+            <li><a href='/runestone/static/overview/instructor.html'>Help for Instructors</a></li>
+            <li class="divider"></li>
+            <li><a href='http://runestoneinteractive.org'>About Runestone</a></li>
+            <li><a href='/runestone/default/reportabug?course=python_problems&page=type_basics'>Report A Problem</a></li>
+          </ul>
+        </li>
+        <!-- end help menu dropdown -->
+
+        <li class="divider-vertical"></li>
+
+      </ul>
+      </div>
+
+
+
+
+
+
+      <ul class="nav navbar-nav">
+        <li class="divider-vertical"></li>
+        <!--
+          <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">SECTION 4: Basic Types</a></li>
+</ul>
+</ul>
+</li>
+          <li class="divider-vertical"></li>
+        
+        
+          
+  <li id="relations-prev" title="Previous Chapter - SECTION 3: Expressions" data-toggle="tooltip">
+    <a href="expressions.html" >
+      <i class='glyphicon glyphicon-backward' style='opacity:0.9;'></i>
+    </a>
+  </li>
+  
+    <li class="divider-vertical"></li>
+  
+
+<script type="text/javascript">
+  opts = {'placement':'bottom',
+          'selector': '',
+          'delay': { show: 100, hide: 50}
+         };
+
+  $('#relations-prev').tooltip(opts);
+  $('#relations-next').tooltip(opts);
+</script>
+        -->
+        
+          <li></li>
+        
+      </ul>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="container" id="continue-reading"></div>
+
+<div class="container" id="main-content">
+  
+  <div class="section" id="section-4-basic-types">
+<h1>SECTION 4: Basic Types<a class="headerlink" href="#section-4-basic-types" title="Permalink to this headline">¶</a></h1>
+<div style='display:none;'>
+<div data-childcomponent="types1_pre" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types1_pre data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+last_name = 'Lincoln'
+first_name = 'Abraham'
+</textarea>
+</div>
+</div>
+    <div data-component="question" class="full-width container question" id="types1_q" >
+    <ol start=1 class=arabic><li class="alert alert-warning">
+
+    <div id='types1_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types1" class="runestone explainer ac_section alert alert-warning">
+Assume two variables, <code class="docutils literal notranslate"><span class="pre">last_name</span></code> and <code class="docutils literal notranslate"><span class="pre">first_name</span></code>, have been defined
+and refer to strings.
+Write an assignment statement to make a new string, <code class="docutils literal notranslate"><span class="pre">name</span></code>, that is the
+concatenation of <code class="docutils literal notranslate"><span class="pre">first_name</span></code> and <code class="docutils literal notranslate"><span class="pre">last_name</span></code> with a space between.
+<textarea data-component="activecode" id=types1 data-lang="python" 
+     data-include="types1_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+       self.assertEqual(name, 'Abraham Lincoln')
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Remember that you use <code class="docutils literal notranslate"><span class="pre">+</span></code> to concatenate strings.  Remember that you have to
+put a space between the first and last names.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types1_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types1_a data-lang="python" 
+     data-include="types1_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+name = first_name + ' ' + last_name
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types2_q" >
+    <ol start=2 class=arabic><li class="alert alert-warning">
+
+    <div id='types2_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types2" class="runestone explainer ac_section alert alert-warning">
+Assume two variables, <code class="docutils literal notranslate"><span class="pre">last_name</span></code> and <code class="docutils literal notranslate"><span class="pre">first_name</span></code>, have been defined
+and refer to strings.
+Write an assignment statement to make a new string, <code class="docutils literal notranslate"><span class="pre">name</span></code>, that is the
+concatenation of the first initial of <code class="docutils literal notranslate"><span class="pre">first_name</span></code> and <code class="docutils literal notranslate"><span class="pre">last_name</span></code> with a space between.
+<textarea data-component="activecode" id=types2 data-lang="python" 
+     data-include="types1_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+       self.assertEqual(name, 'A Lincoln')
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+<p>The first character in a string is accessed by indexing at 0.  E.g.,</p>
+<p>greeting = ‘hello’</p>
+<p>firstLetter = greeting[0]</p>
+</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types2_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types2_a data-lang="python" 
+     data-include="types1_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+name = first_name[0] + ' ' + last_name
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types3_q" >
+    <ol start=3 class=arabic><li class="alert alert-warning">
+
+    <div id='types3_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types3" class="runestone explainer ac_section alert alert-warning">
+Write a two-line program to read in a string from the user and then print out
+the length of that string.
+<textarea data-component="activecode" id=types3 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Use len(theString) to get the length of the string.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types3_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types3_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+userStr = input("Enter a string: ")
+print(len(userStr))
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types4_q" >
+    <ol start=4 class=arabic><li class="alert alert-warning">
+
+    <div id='types4_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types4" class="runestone explainer ac_section alert alert-warning">
+<p>Write a small program that asks the user for a string and then prints out
+the first and last characters of that string. E.g.,</p>
+<p>Enter a string: <code class="docutils literal notranslate"><span class="pre">Hello,</span> <span class="pre">world</span></code></p>
+<p>First and last characters are: H d</p>
+
+<textarea data-component="activecode" id=types4 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Use -1 as the index to get the last character of the string.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types4_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types4_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+userInput = input("Enter a string: ")
+print("First and last characters are:", userInput[0], userInput[-1])
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types5_q" >
+    <ol start=5 class=arabic><li class="alert alert-warning">
+
+    <div id='types5_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types5" class="runestone explainer ac_section alert alert-warning">
+Write code to create a list called <code class="docutils literal notranslate"><span class="pre">greetings</span></code> containing the string ‘hello’ and the string ‘nihao’.
+<textarea data-component="activecode" id=types5 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+       self.assertEqual(greetings, ['hello', 'nihao'])
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Use <code class="docutils literal notranslate"><span class="pre">[</span></code> and <code class="docutils literal notranslate"><span class="pre">]</span></code> and separate the strings with commas.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types5_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types5_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+greetings = ['hello', 'nihao']
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types6_q" >
+    <ol start=6 class=arabic><li class="alert alert-warning">
+
+    <div id='types6_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types6" class="runestone explainer ac_section alert alert-warning">
+Write a statement to create a variable <code class="docutils literal notranslate"><span class="pre">emptyList</span></code> referring to an empty list.
+<textarea data-component="activecode" id=types6 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+       self.assertEqual(emptyList, [])
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+You can create an empty list by using <code class="docutils literal notranslate"><span class="pre">[</span></code> and <code class="docutils literal notranslate"><span class="pre">]</span></code> with nothing in between.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types6_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types6_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+emptyList = []
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    <div style='display:none;'>
+<div data-childcomponent="types7_pre" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types7_pre data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+groceries = ['milk', 'eggs', 'chocolate!', 'Doritos!', 'bread']
+</textarea>
+</div>
+</div>
+    <div data-component="question" class="full-width container question" id="types7_q" >
+    <ol start=7 class=arabic><li class="alert alert-warning">
+
+    <div id='types7_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types7" class="runestone explainer ac_section alert alert-warning">
+Write code to print the element at index 2 from a previously-defined list <code class="docutils literal notranslate"><span class="pre">groceries</span></code>.
+<textarea data-component="activecode" id=types7 data-lang="python" 
+     data-include="types7_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Call print(), accessing groceries inside it.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types7_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types7_a data-lang="python" 
+     data-include="types7_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+print(groceries[2])
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types8_q" >
+    <ol start=8 class=arabic><li class="alert alert-warning">
+
+    <div id='types8_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types8" class="runestone explainer ac_section alert alert-warning">
+Write code to print the 2nd-to-last element of previously-defined list <code class="docutils literal notranslate"><span class="pre">groceries</span></code>.
+<textarea data-component="activecode" id=types8 data-lang="python" 
+     data-include="types7_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Use -2 to access the 2nd-to-last element.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types8_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types8_a data-lang="python" 
+     data-include="types7_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+print(groceries[-2])
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types9_q" >
+    <ol start=9 class=arabic><li class="alert alert-warning">
+
+    <div id='types9_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types9" class="runestone explainer ac_section alert alert-warning">
+Write code to create a list containing 3 elements, your name, your age, your eye color,
+where your name and eye color are strings, and your age is a number.
+<textarea data-component="activecode" id=types9 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Lists can contain elements of any type.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types9_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types9_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+myInfo = ['Victor Norman', 53, 'hazel']
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    <div style='display:none;'>
+<div data-childcomponent="types10_pre" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types10_pre data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+groceries = ['milk', 'eggs', 'chocolate!', 'Doritos!', 'bread']
+</textarea>
+</div>
+</div>
+    <div data-component="question" class="full-width container question" id="types10_q" >
+    <ol start=10 class=arabic><li class="alert alert-warning">
+
+    <div id='types10_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types10" class="runestone explainer ac_section alert alert-warning">
+Write a line of code to replace the element at index 1 of a previously-defined
+list <code class="docutils literal notranslate"><span class="pre">groceries</span></code> with the string ‘chocolate milk’.
+<textarea data-component="activecode" id=types10 data-lang="python" 
+     data-include="types10_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+       self.assertEqual(groceries[1], 'chocolate milk')
+       self.assertEqual(len(groceries), 5)
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+To replace an element in a list, access that element on the left-hand-side of an assignment statement.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types10_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types10_a data-lang="python" 
+     data-include="types10_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+groceries[1] = 'chocolate milk'
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types11_q" >
+    <ol start=11 class=arabic><li class="alert alert-warning">
+
+    <div id='types11_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types11" class="runestone explainer ac_section alert alert-warning">
+Write code that removes the first item (at index 0) from a list <code class="docutils literal notranslate"><span class="pre">groceries</span></code>
+and adds that item back at the end of the list.
+<textarea data-component="activecode" id=types11 data-lang="python" 
+     data-include="types10_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+       self.assertEqual(len(groceries), 5)
+       self.assertEqual(groceries[-1], 'milk')
+       self.assertEqual(groceries[-2], 'bread')
+       self.assertEqual(groceries[0], 'eggs')
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Use two lines of code.  Use <code class="docutils literal notranslate"><span class="pre">pop()</span></code> in the first line, and <code class="docutils literal notranslate"><span class="pre">append()</span></code> in the second.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types11_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types11_a data-lang="python" 
+     data-include="types10_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+item = groceries.pop(0)
+groceries.append(item)
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types12_q" >
+    <ol start=12 class=arabic><li class="alert alert-warning">
+
+    <div id='types12_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types12" class="runestone explainer ac_section alert alert-warning">
+Write code to remove the last item of the list <code class="docutils literal notranslate"><span class="pre">groceries</span></code> and insert it
+in the middle of the list.  Assume the list has an odd number of elements
+before removing the last item (and, thus, an even number of elements after
+removing the last item).  (Hint: use integer division <code class="docutils literal notranslate"><span class="pre">//</span></code>.)
+<textarea data-component="activecode" id=types12 data-lang="python" 
+     data-include="types10_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+       self.assertEqual(len(groceries), 5)
+       self.assertEqual(groceries[0], 'milk')
+       self.assertEqual(groceries[1], 'eggs')
+       self.assertEqual(groceries[2], 'bread')
+       self.assertEqual(groceries[3], 'chocolate!')
+       self.assertEqual(groceries[4], 'Doritos!')
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Use multiple lines of code.  First, <code class="docutils literal notranslate"><span class="pre">pop()</span></code> the last item off and store it
+in a variable.  Then, get the length of the list.  Then insert the item back
+into the list in the middle.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types12_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types12_a data-lang="python" 
+     data-include="types10_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+item = groceries.pop()
+listlen = len(groceries)
+groceries.insert(listlen // 2, item)
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types13_q" >
+    <ol start=13 class=arabic><li class="alert alert-warning">
+
+    <div id='types13_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types13" class="runestone explainer ac_section alert alert-warning">
+Write code to swap the first and last items in the list <code class="docutils literal notranslate"><span class="pre">groceries</span></code>.
+<textarea data-component="activecode" id=types13 data-lang="python" 
+     data-include="types10_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+       self.assertEqual(len(groceries), 5)
+       self.assertEqual(groceries[0], 'bread')
+       self.assertEqual(groceries[1], 'eggs')
+       self.assertEqual(groceries[2], 'chocolate!')
+       self.assertEqual(groceries[3], 'Doritos!')
+       self.assertEqual(groceries[4], 'milk')
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Do this in 4 steps: remove the last item and store in a variable.  Remove the first
+item and store in a variable.  Then, in two lines of code, add the items back to the list,
+using <code class="docutils literal notranslate"><span class="pre">insert()</span></code> and <code class="docutils literal notranslate"><span class="pre">append()</span></code>.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types13_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types13_a data-lang="python" 
+     data-include="types10_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+firstitem = groceries.pop(0)
+lastitem = groceries.pop()
+groceries.insert(0, lastitem)
+groceries.append(firstitem)
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    <div style='display:none;'>
+<div data-childcomponent="types14_pre" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types14_pre data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+clothes = ['socks', 'leggings']
+</textarea>
+</div>
+</div>
+    <div data-component="question" class="full-width container question" id="types14_q" >
+    <ol start=14 class=arabic><li class="alert alert-warning">
+
+    <div id='types14_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types14" class="runestone explainer ac_section alert alert-warning">
+Write code to create a new list <code class="docutils literal notranslate"><span class="pre">allitems</span></code> that is the concatenation of
+list <code class="docutils literal notranslate"><span class="pre">groceries</span></code> and list <code class="docutils literal notranslate"><span class="pre">clothes</span></code>.
+<textarea data-component="activecode" id=types14 data-lang="python" 
+     data-include="types10_pre types14_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+       self.assertEqual(len(allitems), 7)
+       self.assertEqual(allitems[0], 'milk')
+       self.assertEqual(groceries[4], 'bread')
+       self.assertEqual(groceries[5], 'socks')
+       self.assertEqual(groceries[6], 'leggings')
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+You can concatenate lists using <code class="docutils literal notranslate"><span class="pre">+</span></code>.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types14_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types14_a data-lang="python" 
+     data-include="types10_pre types14_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+allitems = groceries + clothes
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types15_q" >
+    <ol start=15 class=arabic><li class="alert alert-warning">
+
+    <div id='types15_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types15" class="runestone explainer ac_section alert alert-warning">
+Given a list <code class="docutils literal notranslate"><span class="pre">groceries</span></code>, print out the item from the list with the
+minimum value and the index of where that item is in <code class="docutils literal notranslate"><span class="pre">groceries</span></code>.
+<textarea data-component="activecode" id=types15 data-lang="python" 
+     data-include="types10_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+<p>Use <code class="docutils literal notranslate"><span class="pre">min(groceries)</span></code> to find the minimum item.  Use <code class="docutils literal notranslate"><span class="pre">index()</span></code> to get the index of
+that item.</p>
+<p>The answer should be <code class="docutils literal notranslate"><span class="pre">Doritos!</span> <span class="pre">3</span></code>.</p>
+</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types15_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types15_a data-lang="python" 
+     data-include="types10_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+minItem = min(groceries)
+location = groceries.index(minItem)
+print(minItem, location)
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    <div style='display:none;'>
+<div data-childcomponent="types16_pre" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types16_pre data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+scores = [78, 44, 99, 93, 86, 91, 68, 68, 90, 82, 85, 79, 77, 72, 94]
+</textarea>
+</div>
+</div>
+    <div data-component="question" class="full-width container question" id="types16_q" >
+    <ol start=16 class=arabic><li class="alert alert-warning">
+
+    <div id='types16_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types16" class="runestone explainer ac_section alert alert-warning">
+Given a list <code class="docutils literal notranslate"><span class="pre">scores</span></code>, write code to store the average in a variable
+called <code class="docutils literal notranslate"><span class="pre">average_score</span></code>.  Then, print <code class="docutils literal notranslate"><span class="pre">average_score</span></code>.
+<textarea data-component="activecode" id=types16 data-lang="python" 
+     data-include="types16_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+       self.assertEqual(average_score, sum(scores) / len(scores))
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Use <code class="docutils literal notranslate"><span class="pre">sum(scores)</span></code> and <code class="docutils literal notranslate"><span class="pre">len(scores)</span></code> in your computation.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types16_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types16_a data-lang="python" 
+     data-include="types16_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+average_score = sum(scores) / len(scores)
+print(average_score)
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="types17_q" >
+    <ol start=17 class=arabic><li class="alert alert-warning">
+
+    <div id='types17_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types17" class="runestone explainer ac_section alert alert-warning">
+Create a variable <code class="docutils literal notranslate"><span class="pre">xycoords</span></code> that refers to a <em>tuple</em> containing two
+values: <code class="docutils literal notranslate"><span class="pre">3</span></code> and <code class="docutils literal notranslate"><span class="pre">-7</span></code>.
+<textarea data-component="activecode" id=types17 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+       self.assertIs(type(xycoords), tuple, 'variable must be a tuple')
+       self.assertEqual(xycoords, (3, -7))
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+Create a tuple with <code class="docutils literal notranslate"><span class="pre">(</span></code> and <code class="docutils literal notranslate"><span class="pre">)</span></code> and a comma separating each element.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types17_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types17_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+xycoords = (3, -7)
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    <div style='display:none;'>
+<div data-childcomponent="types18_pre" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types18_pre data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+xycoords = (3, -7)
+</textarea>
+</div>
+</div>
+    <div data-component="question" class="full-width container question" id="types18_q" >
+    <ol start=18 class=arabic><li class="alert alert-warning">
+
+    <div id='types18_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="types18" class="runestone explainer ac_section alert alert-warning">
+Write code to print out the item at index 1 of already-defined tuple <code class="docutils literal notranslate"><span class="pre">xycoords</span></code>.
+<textarea data-component="activecode" id=types18 data-lang="python" 
+     data-include="types18_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+# replace this comment with your code
+====
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+You can index a tuple just like you index a list or string, since a tuple is also a sequence.</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="types18_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=types18_a data-lang="python" 
+     data-include="types18_pre" data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+print(xycoords[1])
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    </div>
+
+
+  
+      
+  <li id="relations-prev" class="navLink" title='Previous Section - SECTION 3: Expressions' data-toggle="tooltip">
+    <a href="expressions.html" >
+        <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">            
+            <i class='prevNav glyphicon glyphicon-chevron-left' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%;"></i>
+        </div>
+    </a>
+  </li>
+  <a class="navLinkBg" id="navLinkBgLeft"  href="expressions.html" ></a>
+  
+
+<script type="text/javascript">
+
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+  
+</script>
+  
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      
+      | <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2019 vtn2.
+      Created using <a href="http://runestoneinteractive.org/">Runestone</a> 3.2.15.
+    </p>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32029811-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+  </body>
+</html>

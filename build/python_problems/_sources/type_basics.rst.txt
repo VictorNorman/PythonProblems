@@ -1,0 +1,658 @@
+SECTION 4: Basic Types
+:::::::::::::::::::::::::::
+
+.. raw:: html
+
+   <div style='display:none;'>
+
+.. activecode:: types1_pre
+
+   last_name = 'Lincoln'
+   first_name = 'Abraham'
+
+.. raw:: html
+
+   </div>
+
+.. question:: types1_q
+   :number: 1
+
+   .. tabbed:: types1_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types1
+               :include: types1_pre
+
+               Assume two variables, ``last_name`` and ``first_name``, have been defined
+	       and refer to strings.
+               Write an assignment statement to make a new string, ``name``, that is the
+	       concatenation of ``first_name`` and ``last_name`` with a space between.
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(name, 'Abraham Lincoln')
+               myTests().main()
+        .. tab:: Hint
+
+           Remember that you use ``+`` to concatenate strings.  Remember that you have to
+	   put a space between the first and last names.
+
+        .. tab:: Answer
+
+           .. activecode:: types1_a
+              :nocanvas:
+              :include: types1_pre
+
+              name = first_name + ' ' + last_name
+              
+.. question:: types2_q
+
+   .. tabbed:: types2_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types2
+               :include: types1_pre
+
+               Assume two variables, ``last_name`` and ``first_name``, have been defined
+	       and refer to strings.
+               Write an assignment statement to make a new string, ``name``, that is the
+	       concatenation of the first initial of ``first_name`` and ``last_name`` with a space between.
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(name, 'A Lincoln')
+               myTests().main()
+        .. tab:: Hint
+
+           The first character in a string is accessed by indexing at 0.  E.g.,
+
+           greeting = 'hello'
+
+           firstLetter = greeting[0]
+
+        .. tab:: Answer
+
+           .. activecode:: types2_a
+              :nocanvas:
+              :include: types1_pre
+
+              name = first_name[0] + ' ' + last_name
+
+
+.. question:: types3_q
+
+    .. tabbed:: types3_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types3
+
+               Write a two-line program to read in a string from the user and then print out
+               the length of that string.
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+           Use len(theString) to get the length of the string.
+
+        .. tab:: Answer
+
+           .. activecode:: types3_a
+              :nocanvas:
+
+              userStr = input("Enter a string: ")
+              print(len(userStr))
+
+.. question:: types4_q
+
+    .. tabbed:: types4_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types4
+
+               Write a small program that asks the user for a string and then prints out
+               the first and last characters of that string. E.g.,
+
+               Enter a string: ``Hello, world``
+
+               First and last characters are: H d
+
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+           Use -1 as the index to get the last character of the string.
+
+        .. tab:: Answer
+
+           .. activecode:: types4_a
+              :nocanvas:
+
+              userInput = input("Enter a string: ")
+              print("First and last characters are:", userInput[0], userInput[-1])
+
+
+.. question:: types5_q
+
+    .. tabbed:: types5_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types5
+
+               Write code to create a list called ``greetings`` containing the string 'hello' and the string 'nihao'.
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(greetings, ['hello', 'nihao'])
+               myTests().main()
+
+        .. tab:: Hint
+
+           Use ``[`` and ``]`` and separate the strings with commas.
+
+        .. tab:: Answer
+
+           .. activecode:: types5_a
+              :nocanvas:
+
+              greetings = ['hello', 'nihao']
+
+.. question:: types6_q
+
+    .. tabbed:: types6_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types6
+
+               Write a statement to create a variable ``emptyList`` referring to an empty list.
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(emptyList, [])
+               myTests().main()
+
+        .. tab:: Hint
+
+	   You can create an empty list by using ``[`` and ``]`` with nothing in between.
+
+        .. tab:: Answer
+
+           .. activecode:: types6_a
+              :nocanvas:
+
+	      emptyList = []              
+              
+.. raw:: html
+
+   <div style='display:none;'>
+
+.. activecode:: types7_pre
+
+   groceries = ['milk', 'eggs', 'chocolate!', 'Doritos!', 'bread']
+
+.. raw:: html
+
+   </div>
+
+.. question:: types7_q
+
+    .. tabbed:: types7_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types7
+               :include: types7_pre
+
+               Write code to print the element at index 2 from a previously-defined list ``groceries``.
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+	   Call print(), accessing groceries inside it.
+
+        .. tab:: Answer
+
+           .. activecode:: types7_a
+              :nocanvas:
+              :include: types7_pre
+
+	      print(groceries[2])
+
+.. question:: types8_q
+
+    .. tabbed:: types8_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types8
+               :include: types7_pre
+
+               Write code to print the 2nd-to-last element of previously-defined list ``groceries``.
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+	   Use -2 to access the 2nd-to-last element.
+
+        .. tab:: Answer
+
+           .. activecode:: types8_a
+              :nocanvas:
+              :include: types7_pre
+
+	      print(groceries[-2])
+
+.. question:: types9_q
+
+    .. tabbed:: types9_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types9
+
+               Write code to create a list containing 3 elements, your name, your age, your eye color,
+               where your name and eye color are strings, and your age is a number.
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+	   Lists can contain elements of any type.
+
+        .. tab:: Answer
+
+           .. activecode:: types9_a
+              :nocanvas:
+
+	      myInfo = ['Victor Norman', 53, 'hazel']
+
+
+.. raw:: html
+
+   <div style='display:none;'>
+
+.. activecode:: types10_pre
+
+   groceries = ['milk', 'eggs', 'chocolate!', 'Doritos!', 'bread']
+
+.. raw:: html
+
+   </div>
+
+.. question:: types10_q
+
+    .. tabbed:: types10_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types10
+               :include: types10_pre
+
+               Write a line of code to replace the element at index 1 of a previously-defined
+               list ``groceries`` with the string 'chocolate milk'.
+               
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(groceries[1], 'chocolate milk')
+                      self.assertEqual(len(groceries), 5)
+               myTests().main()
+
+        .. tab:: Hint
+
+	   To replace an element in a list, access that element on the left-hand-side of an assignment statement.
+
+        .. tab:: Answer
+
+           .. activecode:: types10_a
+              :nocanvas:
+              :include: types10_pre
+
+	      groceries[1] = 'chocolate milk'
+
+.. question:: types11_q
+
+    .. tabbed:: types11_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types11
+               :include: types10_pre
+
+               Write code that removes the first item (at index 0) from a list ``groceries``
+	       and adds that item back at the end of the list.
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(len(groceries), 5)
+                      self.assertEqual(groceries[-1], 'milk')
+                      self.assertEqual(groceries[-2], 'bread')
+                      self.assertEqual(groceries[0], 'eggs')
+               myTests().main()
+
+        .. tab:: Hint
+
+	   Use two lines of code.  Use ``pop()`` in the first line, and ``append()`` in the second.
+
+        .. tab:: Answer
+
+           .. activecode:: types11_a
+              :nocanvas:
+              :include: types10_pre
+
+	      item = groceries.pop(0)
+	      groceries.append(item)
+
+.. question:: types12_q
+
+    .. tabbed:: types12_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types12
+               :include: types10_pre
+
+               Write code to remove the last item of the list ``groceries`` and insert it
+               in the middle of the list.  Assume the list has an odd number of elements
+               before removing the last item (and, thus, an even number of elements after
+               removing the last item).  (Hint: use integer division ``//``.)
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(len(groceries), 5)
+                      self.assertEqual(groceries[0], 'milk')
+                      self.assertEqual(groceries[1], 'eggs')
+                      self.assertEqual(groceries[2], 'bread')
+                      self.assertEqual(groceries[3], 'chocolate!')
+                      self.assertEqual(groceries[4], 'Doritos!')
+               myTests().main()
+
+        .. tab:: Hint
+
+	   Use multiple lines of code.  First, ``pop()`` the last item off and store it
+           in a variable.  Then, get the length of the list.  Then insert the item back
+           into the list in the middle.
+
+        .. tab:: Answer
+
+           .. activecode:: types12_a
+              :nocanvas:
+              :include: types10_pre
+
+	      item = groceries.pop()
+              listlen = len(groceries)
+	      groceries.insert(listlen // 2, item)
+
+.. question:: types13_q
+
+    .. tabbed:: types13_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types13
+               :include: types10_pre
+
+               Write code to swap the first and last items in the list ``groceries``.
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(len(groceries), 5)
+                      self.assertEqual(groceries[0], 'bread')
+                      self.assertEqual(groceries[1], 'eggs')
+                      self.assertEqual(groceries[2], 'chocolate!')
+                      self.assertEqual(groceries[3], 'Doritos!')
+                      self.assertEqual(groceries[4], 'milk')
+               myTests().main()
+
+        .. tab:: Hint
+
+	   Do this in 4 steps: remove the last item and store in a variable.  Remove the first
+           item and store in a variable.  Then, in two lines of code, add the items back to the list,
+           using ``insert()`` and ``append()``.
+
+        .. tab:: Answer
+
+           .. activecode:: types13_a
+              :nocanvas:
+              :include: types10_pre
+
+	      firstitem = groceries.pop(0)
+              lastitem = groceries.pop()
+              groceries.insert(0, lastitem)
+              groceries.append(firstitem)
+
+.. raw:: html
+
+   <div style='display:none;'>
+
+.. activecode:: types14_pre
+
+   clothes = ['socks', 'leggings']
+
+.. raw:: html
+
+   </div>
+
+.. question:: types14_q
+
+    .. tabbed:: types14_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types14
+               :include: types10_pre types14_pre
+
+               Write code to create a new list ``allitems`` that is the concatenation of 
+               list ``groceries`` and list ``clothes``.
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(len(allitems), 7)
+                      self.assertEqual(allitems[0], 'milk')
+                      self.assertEqual(groceries[4], 'bread')
+                      self.assertEqual(groceries[5], 'socks')
+                      self.assertEqual(groceries[6], 'leggings')
+               myTests().main()
+
+        .. tab:: Hint
+
+	   You can concatenate lists using ``+``.
+
+        .. tab:: Answer
+
+           .. activecode:: types14_a
+              :nocanvas:
+              :include: types10_pre types14_pre
+
+              allitems = groceries + clothes
+
+.. question:: types15_q
+
+    .. tabbed:: types15_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types15
+               :include: types10_pre
+
+               Given a list ``groceries``, print out the item from the list with the
+               minimum value and the index of where that item is in ``groceries``.
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+	   Use ``min(groceries)`` to find the minimum item.  Use ``index()`` to get the index of
+           that item.
+
+           The answer should be ``Doritos! 3``.
+
+        .. tab:: Answer
+
+           .. activecode:: types15_a
+              :nocanvas:
+              :include: types10_pre
+
+              minItem = min(groceries)
+              location = groceries.index(minItem)
+              print(minItem, location)
+
+.. raw:: html
+
+   <div style='display:none;'>
+
+.. activecode:: types16_pre
+
+   scores = [78, 44, 99, 93, 86, 91, 68, 68, 90, 82, 85, 79, 77, 72, 94]
+
+.. raw:: html
+
+   </div>
+
+.. question:: types16_q
+
+    .. tabbed:: types16_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types16
+               :include: types16_pre
+
+               Given a list ``scores``, write code to store the average in a variable
+               called ``average_score``.  Then, print ``average_score``.
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertEqual(average_score, sum(scores) / len(scores))
+               myTests().main()
+
+        .. tab:: Hint
+
+	   Use ``sum(scores)`` and ``len(scores)`` in your computation.
+
+        .. tab:: Answer
+
+           .. activecode:: types16_a
+              :nocanvas:
+              :include: types16_pre
+
+              average_score = sum(scores) / len(scores)
+              print(average_score)
+              
+              
+.. question:: types17_q
+
+    .. tabbed:: types17_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types17
+
+               Create a variable ``xycoords`` that refers to a *tuple* containing two
+               values: ``3`` and ``-7``.
+               ~~~~
+               # replace this comment with your code
+               ====
+               from unittest.gui import TestCaseGui
+               class myTests(TestCaseGui):
+                  def testOne(self):
+                      self.assertIs(type(xycoords), tuple, 'variable must be a tuple')
+                      self.assertEqual(xycoords, (3, -7))
+               myTests().main()
+
+        .. tab:: Hint
+
+	   Create a tuple with ``(`` and ``)`` and a comma separating each element.
+
+        .. tab:: Answer
+
+           .. activecode:: types17_a
+              :nocanvas:
+
+              xycoords = (3, -7)
+              
+              
+.. raw:: html
+
+   <div style='display:none;'>
+
+.. activecode:: types18_pre
+
+   xycoords = (3, -7)
+
+.. raw:: html
+
+   </div>
+
+.. question:: types18_q
+
+    .. tabbed:: types18_tabs
+
+        .. tab:: Question
+
+            .. activecode:: types18
+               :include: types18_pre
+
+               Write code to print out the item at index 1 of already-defined tuple ``xycoords``.
+               ~~~~
+               # replace this comment with your code
+               ====
+
+        .. tab:: Hint
+
+	   You can index a tuple just like you index a list or string, since a tuple is also a sequence.
+
+        .. tab:: Answer
+
+           .. activecode:: types18_a
+              :nocanvas:
+              :include: types18_pre
+
+              print(xycoords[1])
+              
+              
