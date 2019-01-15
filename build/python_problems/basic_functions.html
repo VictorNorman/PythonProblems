@@ -4,7 +4,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>More Function Definitions &#8212; Runestone Interactive Overview</title>
+    <title>Basic Function Definitions &#8212; Runestone Interactive Overview</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
@@ -106,7 +106,8 @@
     <script type="text/javascript" src="_static/presenter_mode.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Basic Function Definitions" href="basic_functions.html" />
+    <link rel="next" title="Advanced Function Definitions" href="functions.html" />
+    <link rel="prev" title="Loops with continue and break statements" href="loops_with_break_continue.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -263,7 +264,7 @@
             <li><a href='/runestone/static/overview/instructor.html'>Help for Instructors</a></li>
             <li class="divider"></li>
             <li><a href='http://runestoneinteractive.org'>About Runestone</a></li>
-            <li><a href='/runestone/default/reportabug?course=python_problems&page=functions'>Report A Problem</a></li>
+            <li><a href='/runestone/default/reportabug?course=python_problems&page=basic_functions'>Report A Problem</a></li>
           </ul>
         </li>
         <!-- end help menu dropdown -->
@@ -284,7 +285,7 @@
           <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
   <ul class="dropdown-menu localtoc"><ul>
-<li><a class="reference internal" href="#">More Function Definitions</a></li>
+<li><a class="reference internal" href="#">Basic Function Definitions</a></li>
 </ul>
 </ul>
 </li>
@@ -292,14 +293,18 @@
         
         
           
-  <li id="relations-prev" title="Previous Chapter - Basic Function Definitions" data-toggle="tooltip">
-    <a href="basic_functions.html" >
+  <li id="relations-prev" title="Previous Chapter - Loops with continue and break statements" data-toggle="tooltip">
+    <a href="loops_with_break_continue.html" >
       <i class='glyphicon glyphicon-backward' style='opacity:0.9;'></i>
     </a>
   </li>
   
-    <li class="divider-vertical"></li>
-  
+  <li id="relations-next" title='Next Chapter - Advanced Function Definitions' data-toggle="tooltip" >              
+    <a href="functions.html" >
+        <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
+    </a>
+  </li>
+  <li class="divider-vertical"></li>
 
 <script type="text/javascript">
   opts = {'placement':'bottom',
@@ -325,12 +330,12 @@
 
 <div class="container" id="main-content">
   
-  <div class="section" id="more-function-definitions">
-<h1>More Function Definitions<a class="headerlink" href="#more-function-definitions" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="basic-function-definitions">
+<h1>Basic Function Definitions<a class="headerlink" href="#basic-function-definitions" title="Permalink to this headline">¶</a></h1>
 <div style='display:none;'>
-<div data-childcomponent="mfunc1_pre" class="runestone explainer ac_section alert alert-warning">
+<div data-childcomponent="bfunc1_pre" class="runestone explainer ac_section alert alert-warning">
 
-<textarea data-component="activecode" id=mfunc1_pre data-lang="python" 
+<textarea data-component="activecode" id=bfunc1_pre data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
@@ -338,55 +343,39 @@ groceries = ['milk', 'bread', 'eggs', 'chocolate (dark)']
 </textarea>
 </div>
 </div>
-    <div data-component="question" class="full-width container question" id="mfunc1_q" >
+    <div data-component="question" class="full-width container question" id="bfunc1_q" >
     <ol start=1 class=arabic><li class="alert alert-warning">
 
     <blockquote>
-<div><div id='mfunc1_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+<div><div id='bfunc1_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
 
-<div data-childcomponent="mfunc1" class="runestone explainer ac_section alert alert-warning">
-<p>Define a function <code class="docutils literal notranslate"><span class="pre">minmax()</span></code> that receives a list of numbers <code class="docutils literal notranslate"><span class="pre">nums</span></code> as
-a parameter.  The function finds the minimum value in the list and the maximum
-value in the list, and returns then both in a tuple. If the list is empty,
-the function returns <code class="docutils literal notranslate"><span class="pre">0</span></code> for both min and max values.</p>
-<p>E.g.:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">minmax</span><span class="p">([</span><span class="mi">44</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">7</span><span class="p">])</span>   <span class="c1"># returns (-3, 44)</span>
-<span class="n">minmax</span><span class="p">([])</span>               <span class="c1"># returns (0, 0)</span>
-</pre></div>
-</div>
+<div data-childcomponent="bfunc1" class="runestone explainer ac_section alert alert-warning">
+<p>Define a function <code class="docutils literal notranslate"><span class="pre">greet()</span></code> that receives a string <code class="docutils literal notranslate"><span class="pre">name</span></code> as a parameter and
+prints <code class="docutils literal notranslate"><span class="pre">Hi,</span></code> followed by the value of <code class="docutils literal notranslate"><span class="pre">name</span></code>.  E.g., if <code class="docutils literal notranslate"><span class="pre">name</span></code> is
+“Georgia”, it prints <code class="docutils literal notranslate"><span class="pre">Hi,</span> <span class="pre">Georgia</span></code>.</p>
+<p>The function returns nothing.</p>
 
-<textarea data-component="activecode" id=mfunc1 data-lang="python" 
+<textarea data-component="activecode" id=bfunc1 data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
 ====
-from unittest.gui import TestCaseGui
-class myTests(TestCaseGui):
-   def testOne(self):
-      self.assertEqual(minmax([-4, 7, -2, 5]), (-4, 7))
-      self.assertEqual(minmax([1]), (1, 1))
-      self.assertEqual(minmax([]), (0, 0))
-myTests().main()
+greet('Georgia')
+greet('Victor')
 </textarea>
 </div>
 </div><div data-component="tab" data-tabname="Hint" >
-<p>Use <code class="docutils literal notranslate"><span class="pre">min()</span></code> and <code class="docutils literal notranslate"><span class="pre">max()</span></code> to find the mininum and maximum values in the
-list.</p>
-<p>You can return two items by returning them in a tuple: e.g., <code class="docutils literal notranslate"><span class="pre">return</span> <span class="pre">(1,</span> <span class="pre">2)</span></code></p>
-</div><div data-component="tab" data-tabname="Answer" >
+A function definition starts with <code class="docutils literal notranslate"><span class="pre">def</span></code> and then the name of the function.
+The contents (or “body”) of the function is indented.</div><div data-component="tab" data-tabname="Answer" >
 
-<div data-childcomponent="mfunc1_a" class="runestone explainer ac_section alert alert-warning">
+<div data-childcomponent="bfunc1_a" class="runestone explainer ac_section alert alert-warning">
 
-<textarea data-component="activecode" id=mfunc1_a data-lang="python" 
+<textarea data-component="activecode" id=bfunc1_a data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
-def minmax(nums):
-    if len(nums) == 0:
-        return (0, 0)
-    lMin = min(nums)
-    lMax = max(nums)
-    return (lMin, lMax)
+def greet(name):
+    print("Hi, " + name)
 </textarea>
 </div>
 </div>
@@ -397,23 +386,16 @@ def minmax(nums):
     </li></ol>
     </div>
     
-    <div data-component="question" class="full-width container question" id="mfunc2_q" >
+    <div data-component="question" class="full-width container question" id="bfunc2_q" >
     <ol start=2 class=arabic><li class="alert alert-warning">
 
-    <div id='mfunc2_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+    <div id='bfunc2_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
 
-<div data-childcomponent="mfunc2" class="runestone explainer ac_section alert alert-warning">
-<p>Define a function <code class="docutils literal notranslate"><span class="pre">average()</span></code> that receives a list of numbers <code class="docutils literal notranslate"><span class="pre">nums</span></code> as
-a parameter.  The function returns 0 if the list is empty.  Otherwise, it
-returns the average of the numbers in the list.  You may use <code class="docutils literal notranslate"><span class="pre">sum()</span></code> and
-<code class="docutils literal notranslate"><span class="pre">len()</span></code> to compute the average for the non-empty list.</p>
-<p>E.g.:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">average</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">])</span>    <span class="c1"># returns 4.5</span>
-<span class="n">average</span><span class="p">([])</span>              <span class="c1"># returns 0</span>
-</pre></div>
-</div>
-
-<textarea data-component="activecode" id=mfunc2 data-lang="python" 
+<div data-childcomponent="bfunc2" class="runestone explainer ac_section alert alert-warning">
+Define a function <code class="docutils literal notranslate"><span class="pre">greet()</span></code> that receives a string <code class="docutils literal notranslate"><span class="pre">name</span></code> as a parameter and
+<em>returns</em> <code class="docutils literal notranslate"><span class="pre">Hi,</span></code> followed by the value of <code class="docutils literal notranslate"><span class="pre">name</span></code>.  (Note: the previous question
+had the code <em>print</em> the result. Here you should <em>return</em> the result.)
+<textarea data-component="activecode" id=bfunc2 data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
@@ -421,24 +403,29 @@ returns the average of the numbers in the list.  You may use <code class="docuti
 from unittest.gui import TestCaseGui
 class myTests(TestCaseGui):
    def testOne(self):
-      self.assertAlmostEqual(average([3, 4, 5, 6]), 4.5)
-      self.assertAlmostEqual(average([]), 0.0)
+      self.assertEqual(greet('Georgia'), "Hi, Georgia")
+      self.assertEqual(greet('Victor'), "Hi, Victor")
+      self.assertEqual(greet(''), "Hi, ")
 myTests().main()
 </textarea>
 </div>
 </div><div data-component="tab" data-tabname="Hint" >
-First, use an if statement to test if the length is 0.</div><div data-component="tab" data-tabname="Answer" >
+<p>Build the string and then return it.  You can assume that the parameter <code class="docutils literal notranslate"><span class="pre">name</span></code> is a string.  The test cases are:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">greet</span><span class="p">(</span><span class="s1">&#39;Susan&#39;</span><span class="p">)</span>             <span class="c1"># returns &quot;Hi, Susan&quot;</span>
+<span class="n">greet</span><span class="p">(</span><span class="s1">&#39;James&#39;</span><span class="p">)</span>             <span class="c1"># returns &quot;Hi, James&quot;</span>
+<span class="n">greet</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>                  <span class="c1"># returns &quot;Hi, &quot;</span>
+</pre></div>
+</div>
+</div><div data-component="tab" data-tabname="Answer" >
 
-<div data-childcomponent="mfunc2_a" class="runestone explainer ac_section alert alert-warning">
+<div data-childcomponent="bfunc2_a" class="runestone explainer ac_section alert alert-warning">
 
-<textarea data-component="activecode" id=mfunc2_a data-lang="python" 
+<textarea data-component="activecode" id=bfunc2_a data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
-def average(nums):
-    if len(nums) == 0:
-        return 0
-    return sum(nums) / len(nums)
+def greet(name):
+    return "Hi, " + name
 </textarea>
 </div>
 </div>
@@ -448,22 +435,14 @@ def average(nums):
     </li></ol>
     </div>
     
-    <div data-component="question" class="full-width container question" id="mfunc3_q" >
+    <div data-component="question" class="full-width container question" id="bfunc3_q" >
     <ol start=3 class=arabic><li class="alert alert-warning">
 
-    <div id='mfunc3_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+    <div id='bfunc3_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
 
-<div data-childcomponent="mfunc3" class="runestone explainer ac_section alert alert-warning">
-<p>Define a function <code class="docutils literal notranslate"><span class="pre">add()</span></code> that receives two numbers <code class="docutils literal notranslate"><span class="pre">v1</span></code> and <code class="docutils literal notranslate"><span class="pre">v2</span></code> as
-parameters, and also has a third optional parameter <code class="docutils literal notranslate"><span class="pre">v3</span></code> with a
-default value of 0.  The function returns the sum of the 2 (or 3) values.</p>
-<p>E.g.:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">add</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>                <span class="c1"># returns 7</span>
-<span class="n">add</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>             <span class="c1"># returns 12</span>
-</pre></div>
-</div>
-
-<textarea data-component="activecode" id=mfunc3 data-lang="python" 
+<div data-childcomponent="bfunc3" class="runestone explainer ac_section alert alert-warning">
+Define a function <code class="docutils literal notranslate"><span class="pre">add()</span></code> that receives two numbers and returns the sum of the numbers.
+<textarea data-component="activecode" id=bfunc3 data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
@@ -471,23 +450,30 @@ default value of 0.  The function returns the sum of the 2 (or 3) values.</p>
 from unittest.gui import TestCaseGui
 class myTests(TestCaseGui):
    def testOne(self):
-      self.assertAlmostEqual(add(3, 4), 7.0)
-      self.assertAlmostEqual(add(1.1, 2.2, 3.3), 6.6)
+      self.assertEqual(add(1, 2), 3)
+      self.assertAlmostEqual(add(1.5, 2.0), 3.5)
+      self.assertEqual(add(-1, 1), 0)
 myTests().main()
 </textarea>
 </div>
 </div><div data-component="tab" data-tabname="Hint" >
-An optional parameter with default value must be at the end of the list
-of parameters.</div><div data-component="tab" data-tabname="Answer" >
+<p>The function <em>prints</em> nothing.  It returns the sum of the two values passed in.</p>
+<p>The test cases are:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>             <span class="c1"># returns 3</span>
+<span class="n">add</span><span class="p">(</span><span class="mf">1.5</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">)</span>         <span class="c1"># returns 3.5</span>
+<span class="n">add</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>            <span class="c1"># returns 0</span>
+</pre></div>
+</div>
+</div><div data-component="tab" data-tabname="Answer" >
 
-<div data-childcomponent="mfunc3_a" class="runestone explainer ac_section alert alert-warning">
+<div data-childcomponent="bfunc3_a" class="runestone explainer ac_section alert alert-warning">
 
-<textarea data-component="activecode" id=mfunc3_a data-lang="python" 
+<textarea data-component="activecode" id=bfunc3_a data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
-def add(v1, v2, v3=0):    # v3 is the optional parameter with def. value 0
-    return v1 + v2 + v3
+def add(num1, num2):
+    return num1 + num2
 </textarea>
 </div>
 </div>
@@ -497,54 +483,46 @@ def add(v1, v2, v3=0):    # v3 is the optional parameter with def. value 0
     </li></ol>
     </div>
     
-    <div data-component="question" class="full-width container question" id="mfunc4_q" >
+    <div data-component="question" class="full-width container question" id="bfunc4_q" >
     <ol start=4 class=arabic><li class="alert alert-warning">
 
-    <div id='mfunc4_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+    <div id='bfunc4_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
 
-<div data-childcomponent="mfunc4" class="runestone explainer ac_section alert alert-warning">
-<p>Define a function <code class="docutils literal notranslate"><span class="pre">sqrtsum()</span></code> that takes 2 required parameters, plus 1 optional
-parameter <code class="docutils literal notranslate"><span class="pre">debug</span></code>. The function returns the sum of the sqrt() of each parameter.
-If <code class="docutils literal notranslate"><span class="pre">debug</span></code> is True, it prints the result first before
-returning it.  The default value for <code class="docutils literal notranslate"><span class="pre">debug</span></code> is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
-<p>E.g.:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sqrtsum</span><span class="p">(</span><span class="mf">4.0</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>             <span class="c1"># returns 7.0</span>
-<span class="n">sqrtsum</span><span class="p">(</span><span class="mf">100.</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>       <span class="c1"># prints 10.0 and then returns 10.0</span>
-</pre></div>
-</div>
-
-<textarea data-component="activecode" id=mfunc4 data-lang="python" 
+<div data-childcomponent="bfunc4" class="runestone explainer ac_section alert alert-warning">
+Define a function <code class="docutils literal notranslate"><span class="pre">add()</span></code> that receives two numbers and returns the value
+that is 100 more than the sum of the two numbers.
+<textarea data-component="activecode" id=bfunc4 data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
-import math
-# Write your function definition here.
 ====
 from unittest.gui import TestCaseGui
 class myTests(TestCaseGui):
    def testOne(self):
-      self.assertAlmostEqual(sqrtsum(4.0, 25), 7.0)
-      self.assertAlmostEqual(sqrtsum(100., 0, True), 10.0)
+      self.assertEqual(add(1, 2), 103)
+      self.assertAlmostEqual(add(1.5, 2.0), 103.5)
+      self.assertEqual(add(-1, 1), 100)
 myTests().main()
 </textarea>
 </div>
 </div><div data-component="tab" data-tabname="Hint" >
-Compute the result into a local variable, say, <code class="docutils literal notranslate"><span class="pre">result</span></code>. Then
-write an if statement to check if debug is True.  If so, print
-the result.  In either case, return the result.</div><div data-component="tab" data-tabname="Answer" >
+<p>The function <em>prints</em> nothing.  It returns the sum of the two values passed in.</p>
+<p>The test cases are:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>             <span class="c1"># returns 103</span>
+<span class="n">add</span><span class="p">(</span><span class="mf">1.5</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">)</span>         <span class="c1"># returns 103.5</span>
+<span class="n">add</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>            <span class="c1"># returns 100</span>
+</pre></div>
+</div>
+</div><div data-component="tab" data-tabname="Answer" >
 
-<div data-childcomponent="mfunc4_a" class="runestone explainer ac_section alert alert-warning">
+<div data-childcomponent="bfunc4_a" class="runestone explainer ac_section alert alert-warning">
 
-<textarea data-component="activecode" id=mfunc4_a data-lang="python" 
+<textarea data-component="activecode" id=bfunc4_a data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
-import math
-def sqrtsum(v1, v2, debug=False):
-    result = math.sqrt(v1) + math.sqrt(v2)
-    if debug:             # same as if debug == True:
-        print(result)
-    return result
+def add(num1, num2):
+    return num1 + num2 + 100
 </textarea>
 </div>
 </div>
@@ -554,55 +532,49 @@ def sqrtsum(v1, v2, debug=False):
     </li></ol>
     </div>
     
-    <div data-component="question" class="full-width container question" id="mfunc5_q" >
+    <div data-component="question" class="full-width container question" id="bfunc5_q" >
     <ol start=5 class=arabic><li class="alert alert-warning">
 
-    <div id='mfunc5_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+    <div id='bfunc5_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
 
-<div data-childcomponent="mfunc5" class="runestone explainer ac_section alert alert-warning">
-<p>Define a function <code class="docutils literal notranslate"><span class="pre">scaleby()</span></code> that takes 2 parameters: a
-list <code class="docutils literal notranslate"><span class="pre">inlist</span></code> and a number, <code class="docutils literal notranslate"><span class="pre">scale</span></code>.
-The function returns a new list, which contains each element in
-<code class="docutils literal notranslate"><span class="pre">inlist</span></code> multipled by <code class="docutils literal notranslate"><span class="pre">scale</span></code>.</p>
-<p>E.g.:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">scaleby</span><span class="p">([</span><span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">7</span><span class="p">],</span> <span class="mi">3</span><span class="p">)</span>  <span class="c1"># returns [12, -9, 21]</span>
-<span class="n">scaleby</span><span class="p">([],</span> <span class="mi">5</span><span class="p">)</span>          <span class="c1"># returns []</span>
-<span class="n">scaleby</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="o">-</span><span class="mi">40</span><span class="p">],</span> <span class="o">-</span><span class="mi">5</span><span class="p">)</span>  <span class="c1"># returns [0, -5000, 200]</span>
-</pre></div>
-</div>
-
-<textarea data-component="activecode" id=mfunc5 data-lang="python" 
+<div data-childcomponent="bfunc5" class="runestone explainer ac_section alert alert-warning">
+Define a function <code class="docutils literal notranslate"><span class="pre">makeUserId()</span></code> that receives two
+parameters – a string <code class="docutils literal notranslate"><span class="pre">name</span></code> and a number <code class="docutils literal notranslate"><span class="pre">num</span></code>, and
+returns a string that is the concatenation of the user name
+and the number.
+<textarea data-component="activecode" id=bfunc5 data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
-import math
-# Write your function definition here.
 ====
 from unittest.gui import TestCaseGui
 class myTests(TestCaseGui):
    def testOne(self):
-      self.assertEqual(scaleby([4, -3, 7], 3), [12, -9, 21])
-      self.assertEqual(scaleby([], 5), [])
-      self.assertEqual(scaleby([0, 1000, -40], -5), [0, -5000, 200])
+      self.assertEqual(makeUserId("susan", 2), "susan2")
+      self.assertEqual(makeUserId("erica", 0), "erica0")
+      self.assertEqual(makeUserId("", -1), "-1")
 myTests().main()
 </textarea>
 </div>
 </div><div data-component="tab" data-tabname="Hint" >
-Create an empty list called <code class="docutils literal notranslate"><span class="pre">result</span></code>.  Then, iterate through
-<code class="docutils literal notranslate"><span class="pre">inlist</span></code>. For each value, multiply it by <code class="docutils literal notranslate"><span class="pre">scale</span></code> and
-append it to the result list.  At the end, return that list.</div><div data-component="tab" data-tabname="Answer" >
+<p>Remember that you can only concatenate two strings – not a
+string and an integer.</p>
+<p>The test cases are:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">makeUserId</span><span class="p">(</span><span class="s1">&#39;susan&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>             <span class="c1"># returns &quot;susan2&quot;</span>
+<span class="n">makeUserId</span><span class="p">(</span><span class="s1">&#39;erica&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>             <span class="c1"># returns &quot;erica0&quot;</span>
+<span class="n">makeUserId</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>                 <span class="c1"># returns &quot;-1&quot;</span>
+</pre></div>
+</div>
+</div><div data-component="tab" data-tabname="Answer" >
 
-<div data-childcomponent="mfunc5_a" class="runestone explainer ac_section alert alert-warning">
+<div data-childcomponent="bfunc5_a" class="runestone explainer ac_section alert alert-warning">
 
-<textarea data-component="activecode" id=mfunc5_a data-lang="python" 
+<textarea data-component="activecode" id=bfunc5_a data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
-def scaleby(inlist, scale):
-    result = []
-    for item in inlist:
-        result.append(item * scale)
-    return result
+def makeUserId(name, num):
+    return name + str(num)
 </textarea>
 </div>
 </div>
@@ -612,66 +584,106 @@ def scaleby(inlist, scale):
     </li></ol>
     </div>
     
-    <div data-component="question" class="full-width container question" id="mfunc6_q" >
+    <div data-component="question" class="full-width container question" id="bfunc6_q" >
     <ol start=6 class=arabic><li class="alert alert-warning">
 
-    <div id='mfunc6_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+    <div id='bfunc6_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
 
-<div data-childcomponent="mfunc6" class="runestone explainer ac_section alert alert-warning">
-<p>Define a function <code class="docutils literal notranslate"><span class="pre">constrain()</span></code> that takes 2 or 3
-parameters. The first parameter is a required number. The
-second parameter, <code class="docutils literal notranslate"><span class="pre">min</span></code>, is optional, with a default value
-of -1000000000 (negative 1 billion). The third parameter,
-<code class="docutils literal notranslate"><span class="pre">max</span></code>, is optional, with a default value of 1000000000.</p>
-<p>The function returns the first value such that it has been
-constrained between <code class="docutils literal notranslate"><span class="pre">min</span></code> and <code class="docutils literal notranslate"><span class="pre">max</span></code>. Thus, if the value
-is less than <code class="docutils literal notranslate"><span class="pre">min</span></code> it returns <code class="docutils literal notranslate"><span class="pre">min</span></code>.  If the value is
-greater than <code class="docutils literal notranslate"><span class="pre">max</span></code>, it returns <code class="docutils literal notranslate"><span class="pre">max</span></code>.  Otherwise, the
-function returns the value unchanged.</p>
-<p>Note that if the caller provides values for min and/or max
-and min &gt; max, the first parameter is returned unchanged.</p>
-<p>E.g.:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">constrain</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>     <span class="c1"># returns 3 because 0 &lt; 3 &lt; 10</span>
-<span class="n">constrain</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>       <span class="c1"># returns 50 because 10 &lt; min of 50.</span>
-<span class="n">constrain</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>     <span class="c1"># returns 9 because 10 &gt; max of 9.</span>
-<span class="n">constrain</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span>  <span class="c1"># returns 10 because min &gt; max.</span>
-</pre></div>
-</div>
-
-<textarea data-component="activecode" id=mfunc6 data-lang="python" 
+<div data-childcomponent="bfunc6" class="runestone explainer ac_section alert alert-warning">
+Define a function <code class="docutils literal notranslate"><span class="pre">max()</span></code> that receives two
+numbers and returns the larger of the two.  Use an <code class="docutils literal notranslate"><span class="pre">if-else</span></code> statement.
+<textarea data-component="activecode" id=bfunc6 data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
-# Write your function definition here.
 ====
 from unittest.gui import TestCaseGui
 class myTests(TestCaseGui):
    def testOne(self):
-      self.assertAlmostEqual(constrain(3, 0, 10), 3)
-      self.assertAlmostEqual(constrain(10, 50), 50)
-      self.assertAlmostEqual(constrain(10, 0, 9), 9)
-      self.assertAlmostEqual(constrain(10, 20, -10), 10)
+      self.assertEqual(max(0, 1), 1)
+      self.assertEqual(max(44, -4.0), 44)
+      self.assertAlmostEqual(max(7.2, 7.2), 7.2)
 myTests().main()
 </textarea>
 </div>
 </div><div data-component="tab" data-tabname="Hint" >
-First, test if min is greater than max.  If so, return the
-value.</div><div data-component="tab" data-tabname="Answer" >
+<p>You need an if-else statement in the function.</p>
+<p>The test cases are:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">max</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>             <span class="c1"># returns 1</span>
+<span class="nb">max</span><span class="p">(</span><span class="mi">44</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.0</span><span class="p">)</span>         <span class="c1"># returns 44</span>
+<span class="nb">max</span><span class="p">(</span><span class="mf">7.2</span><span class="p">,</span> <span class="mf">7.2</span><span class="p">)</span>         <span class="c1"># returns 7.2</span>
+</pre></div>
+</div>
+</div><div data-component="tab" data-tabname="Answer" >
 
-<div data-childcomponent="mfunc6_a" class="runestone explainer ac_section alert alert-warning">
+<div data-childcomponent="bfunc6_a" class="runestone explainer ac_section alert alert-warning">
 
-<textarea data-component="activecode" id=mfunc6_a data-lang="python" 
+<textarea data-component="activecode" id=bfunc6_a data-lang="python" 
       data-timelimit=25000  data-codelens="true"  
     data-audio=''    
           >
-def constrain(val, min=-1000000000, max=1000000000):
-    if min > max:
-        return val
-    if val < min:
-        return min
-    if val > max:
-        return max
-    return val
+def max(num1, num2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+</textarea>
+</div>
+</div>
+    </div>
+
+
+    </li></ol>
+    </div>
+    
+    <div data-component="question" class="full-width container question" id="bfunc7_q" >
+    <ol start=7 class=arabic><li class="alert alert-warning">
+
+    <div id='bfunc7_tabs' data-component="tabbedStuff"  class='alert alert-warning'><div data-component="tab" data-tabname="Question" >
+
+<div data-childcomponent="bfunc7" class="runestone explainer ac_section alert alert-warning">
+<p>Define a function <code class="docutils literal notranslate"><span class="pre">makeFilledList()</span></code> that takes two
+parameters:</p>
+<ul class="simple">
+<li>length: the number of elements in the list</li>
+<li>value: the value that should be repeated <code class="docutils literal notranslate"><span class="pre">length</span></code> times in the list.</li>
+</ul>
+<p>E.g., if the inputs where 3 and 0, the result would be [0, 0, 0]</p>
+
+<textarea data-component="activecode" id=bfunc7 data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+====
+from unittest.gui import TestCaseGui
+class myTests(TestCaseGui):
+   def testOne(self):
+      self.assertEqual(makeFilledList(4, 1), [1, 1, 1, 1])
+      self.assertEqual(makeFilledList(0, 4), [ ])
+      self.assertEqual(makeFilledList(10, "a"), [ "a", "a", "a", "a", "a", "a", "a", "a", "a", "a" ])
+myTests().main()
+</textarea>
+</div>
+</div><div data-component="tab" data-tabname="Hint" >
+<p>The test cases are:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">makeFilledList</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>             <span class="c1"># returns [1, 1, 1, 1]</span>
+<span class="n">makeFilledList</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>             <span class="c1"># returns [ ]</span>
+<span class="n">makeFilledList</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="s2">&quot;a&quot;</span><span class="p">)</span>          <span class="c1"># returns [ &quot;a&quot;, &quot;a&quot;, &quot;a&quot;, &quot;a&quot;, &quot;a&quot;, &quot;a&quot;, &quot;a&quot;, &quot;a&quot;, &quot;a&quot;, &quot;a&quot; ]</span>
+</pre></div>
+</div>
+</div><div data-component="tab" data-tabname="Answer" >
+
+<div data-childcomponent="bfunc7_a" class="runestone explainer ac_section alert alert-warning">
+
+<textarea data-component="activecode" id=bfunc7_a data-lang="python" 
+      data-timelimit=25000  data-codelens="true"  
+    data-audio=''    
+          >
+def makeFilledList(length, value):
+    res = [ ]
+    for i in range(length):
+        res.append(value)
+    return res
 </textarea>
 </div>
 </div>
@@ -685,15 +697,23 @@ def constrain(val, min=-1000000000, max=1000000000):
 
   
       
-  <li id="relations-prev" class="navLink" title='Previous Section - Basic Function Definitions' data-toggle="tooltip">
-    <a href="basic_functions.html" >
+  <li id="relations-prev" class="navLink" title='Previous Section - Loops with continue and break statements' data-toggle="tooltip">
+    <a href="loops_with_break_continue.html" >
         <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">            
             <i class='prevNav glyphicon glyphicon-chevron-left' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%;"></i>
         </div>
     </a>
   </li>
-  <a class="navLinkBg" id="navLinkBgLeft"  href="basic_functions.html" ></a>
+  <a class="navLinkBg" id="navLinkBgLeft"  href="loops_with_break_continue.html" ></a>
   
+  <li id="relations-next" class="navLink" title='Next Section - Advanced Function Definitions' data-toggle="tooltip" >
+    <a href="functions.html" >
+      <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">            
+          <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%;"></i>
+      </div>
+    </a>
+  </li>
+  <a class="navLinkBg navLink" id="navLinkBgRight" href="functions.html" >Next Section - Advanced Function Definitions</a>
 
 <script type="text/javascript">
 

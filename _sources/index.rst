@@ -24,5 +24,6 @@ Introductory text here.
    for_loops.rst
    while.rst
    loops_with_break_continue.rst
+   basic_functions.rst
    functions.rst
 
